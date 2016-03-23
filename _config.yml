@@ -64,6 +64,15 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
+  - label1: Tooling
+    link1: /tools/
+    size1: 80
+    extend: 1
+    label2: JSON
+    link2: /data/tools.json
+    size2: 60
+    padding: 0
+    decorate: 0    
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
     size1: 80
