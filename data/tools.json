@@ -1,22 +1,22 @@
+---
+layout: none
+---
 [
-	{
-		"tool_id": "4eDEuKVRFn3qBZ123G116W116rqrO7Erqu1XUPqjau812311615pZ9Mf123E21z05hkWf5N1163fSpXYd7WGuLhBknh6oO56CA3A117117",
-		"name": "Serverless",
-		"user": "serverless",
-		"details": "Serverless Framework u2013 Build and maintain web, mobile and IoT applications running on AWS Lambda and API Gateway (formerly known as JAWS) u2013",
-		"post_date": "2016-03-22 19:54:18",
-		"url": "https://github.com/serverless/serverless",
-		"blog_url": "",
-		"blog_rss_url": "",
-		"twitter_url": "",
-		"github_url": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tool/serverless-framework.png",
-		"forks": "389",
-		"followers": "7548",
-		"watchers": "7548",
-		"tags": [
-			"Serverless",
-			"GitHub"
-		]
-	}
+{% for tool in site.data.tools %}{
+	"tool_id": "{{ org.id }}",
+	"name": "{{ org.name }}",
+	"user": "{{ org.user }}",
+	"details": "{{ org.details }}",
+	"post_date": "{{ org.post_date }}",
+	"url": "{{ org.portal_url }}",
+	"blog_url": "{{ org.blog_url }}",
+	"blog_rss_url": "{{ org.blog_rss_url }}",
+	"twitter_url": "{{ org.twitter_url }}",
+	"github_url": "{{ org.github_url }}",
+	"logo": "{{ org.logo }}",
+	"forks": "{{ org.forks }}",
+	"followers": "{{ org.followers }}",
+	"watchers": "{{ org.watchers }}",
+	"tags": {{ tool.tags }}
+{% endfor %}}{% if tool.last != true %},{% endif %}
 ]

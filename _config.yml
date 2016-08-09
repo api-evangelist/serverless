@@ -1,6 +1,6 @@
 title:        Serverless APIs
 url:          http://serverless.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-serverless-apis.png
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-serverless.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -11,29 +11,28 @@ author:
 markdown:     kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
 
 paginate: 150
-paginate_path: "/news/page:num"
+paginate_path: "/blog/page:num"
 
-categories_path : /categories.html
-tags_path : /tags.html
+org: api-evangelist
+repo: serverless
 
 # Masthead title
-masthead_link: http://apis.how/xzca4kr2wb
-masthead_font_size: 65
+masthead_link: http://serverless.apievangelist.com
+masthead_font_size: 90
 masthead_title: '{"Serverless APIs"}'
 
 # Feature
 feature_title: API Guide
 feature_link: http://apievangelist.com
 feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
-feature_image_width: 40
+feature_image_width: 45
 
 # Project
-
 project_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-serverless.png
-project_summary: Research project to keep track of the space everyone is calling serverless. Something led by Amazon Web Service with their Lambda offering. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling in this research repo.
+project_summary: This is a research project to look at latest serverless trend. Like microservices, and devlops, has emerged as a trend people seem to rally behind, making me want to keep an eye on it as a layer of the API space. You can find news I've curated, organizations doing interesting things, some of the common building blocks I've identified, and open source tooling I've aggregated here in this research projects Github repository.
 
 # Navigation
 navigation:
@@ -46,25 +45,34 @@ navigation:
     size2: 0
     padding: 0
     decorate: 0
-  - label1: News
-    link1: /news/
+  - label1: Blog
+    link1: /blog/
     size1: 80
     extend: 1
     label2: RSS
     link2: /blog.xml
     size2: 60
-    padding: 2
+    padding: 0
+    decorate: 0
+  - label1: News
+    link1: /news/
+    size1: 80
+    extend: 1
+    label2: RSS
+    link2: /news.xml
+    size2: 60
+    padding: 0
     decorate: 0
   - label1: Organizations
     link1: /organizations/
     size1: 80
     extend: 1
     label2: JSON
-    link2: /data/companies.json
+    link2: /data/organizations.json
     size2: 60
     padding: 0
     decorate: 0
-  - label1: Tooling
+  - label1: Tools
     link1: /tools/
     size1: 80
     extend: 1
@@ -80,7 +88,7 @@ navigation:
     label2:
     link2:
     size2: 10
-    padding: 8
+    padding: 0
     decorate: 1
 
 # Footer Navigation
@@ -105,49 +113,17 @@ sponsors_margin_top: 15
 sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
 
-# This drives the /extension listing
-extensions:
-  - title: "x-codegen-settings"
-    name: "APIMATIC"
-    source_url: "https://apimatic.io/blog/post/swagger-2-0-extension-for-code-generation-settings"
-    gist_url: "https://gist.github.com/kinlane/b525ab628f070c84456e.js"
-  - title: "x-a127-services"
-    name: "Apigee"
-    source_url: "https://github.com/apigee-127/volos/tree/master/swagger"
-    gist_url: "https://gist.github.com/kinlane/d0d6db70a67d916461ed.js"
-  - title: "x-swagger-router-controller"
-    name: "Apigee"
-    source_url: "https://github.com/swagger-api/swagger-node/blob/master/docs/swagger-file.md"
-    gist_url: "https://gist.github.com/kinlane/85fb77c897b681eafde9.js"
-  - title: "x-amples"
-    name: "James Earl Douglas"
-    source_url: "https://github.com/earldouglas/swagger-test"
-    gist_url: "https://gist.github.com/kinlane/90b1b48e16d14644e9cb.js"
-  - title: "x-amazon-apigateway-integration"
-    name: "Warner Godfrey"
-    source_url: "https://hub.docker.com/r/warnergodfrey/aws-apigateway-swagger/"
-    gist_url: "https://gist.github.com/kinlane/a4dec9386878c66ded96.js"
-  - title: "x-ms-summary"
-    name: "Microsoft Azure"
-    source_url: "https://azure.microsoft.com/en-us/documentation/articles/app-service-api-optimize-for-logic-apps/"
-    gist_url: "https://gist.github.com/kinlane/9d580c9d75060bb3ecae.js"
-  - title: "x-logo"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/63de641a3d33374a916c.js"
-  - title: "x-origin"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/c29b89aca1fbe72fb563.js"
-  - title: "x-providerName"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/f234e506548c29c1fe97.js"
-  - title: "x-unofficialSpec"
-    name: "Any API"
-    source_url: "http://any-api.com"
-    gist_url: "https://gist.github.com/kinlane/d365d1e1fc61d83ccc22.js"
-  - title: "x-summary and x-description"
-    name: "Apiary"
-    source_url: "https://help.apiary.io/api_101/swagger-extensions/"
-    gist_url: "https://gist.github.com/netmilk/e61bd109dca737f77cf2.js"
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60
+
+# curated
+curated_desc: As I keep track on the world of APIs I curate news, blog posts, articles, and other research that I feel is relevant specifically to serverless--these are the links I am including in my research.
+
+# organizations
+org_desc: As I keep track on the world of APIs and read through the information I am curating I keep an eye out for any company, institution, or other agency that is doing anything interesting with serverless. These are the organizations I'm currently including in my serverless research.
+
+# tools
+tools_desc: These are the open source serverless related tooling that I am tracking on as part of my research, and can be used as part of the serverless process.
