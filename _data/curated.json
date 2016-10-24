@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "pqjSYPLlVKZPihPL8R9Z8cu8eJRTNIU5hNWidkIjMKIJoflpCBnDW7jNOLVX6gyn1eL11638n4xwa44UWeMflFiQ117117",
+		"item_date": "2016-10-17 00:00:00",
+		"title": "Automatically convert files in S3 buckets using AWS Lambda",
+		"url": "https://cloudconvert.com/blog/automatically-convert-files-in-s3-buckets-using-aws-lambda/",
+		"domain": "cloudconvert.com",
+		"image": ""
+	},
+	{
 		"curated_id": "kZedFYOc35d91161236MhcsdWFj6u4GouzYQadZBBVeEv75LdRjG5zI69xDf1g116QPp8RfqQaHfCYnKTip6s116OTymXg117117",
 		"item_date": "2016-10-14 14:40:14",
 		"title": "Building A Serverless Screenshot Service with Lambda",
