@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "8aCpp5BfpbW0PMqmJblH20MWvPUvpxGdL49yJhS464Do3GAE7yEPz6199q8hbJBGpNRHnhQvsrcO8V07Quqdng117117",
+		"item_date": "2016-11-03 00:00:00",
+		"title": "Lambda Architecture with Apache Spark",
+		"url": "https://dzone.com/articles/lambda-architecture-with-apache-spark",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "pqjSYPLlVKZPihPL8R9Z8cu8eJRTNIU5hNWidkIjMKIJoflpCBnDW7jNOLVX6gyn1eL11638n4xwa44UWeMflFiQ117117",
 		"item_date": "2016-10-17 00:00:00",
 		"title": "Automatically convert files in S3 buckets using AWS Lambda",
