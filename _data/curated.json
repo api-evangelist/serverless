@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "Q3JJ3WLqY1uTwiXQYAuyK6RGxCYvgztL7c3eWbjTwFkK8F2bp0wC116ptErbS1Q9123MVSinz89iUqt29GtSxhI9gA117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "Splunk and AWS Monitoring  Metrics in a Serverless World",
+		"url": "http://blogs.splunk.com/2017/01/06/splunk-and-aws-monitoring-metrics-in-a-serverless-world/",
+		"domain": "blogs.splunk.com",
+		"image": ""
+	},
+	{
 		"curated_id": "rvP5HD1h7hkIzaAMOxYK123NVXumRJNyg9N116NxDhteMWe6X8eL3G1mUkUeM3MO123f9QkJ9E17Fkp3CXzONjrJ3uag117117",
 		"item_date": "2016-12-30 00:00:00",
 		"title": "Triggering Lambda Functions With an AWS IoT Button",
