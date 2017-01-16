@@ -3,8 +3,8 @@
 		"curated_id": "E3MmLfJSEYoBqwxBH1QZSHI123FzHZ7wGSo3eh1iz123OQc8qvQ9WjpVfmGvaLnW68yWHEczrHw9Z123xcpwRTaKZ116ow117117",
 		"item_date": "2017-01-14 00:00:00",
 		"title": "AWS Lambda  A Look Back at 2016",
-		"url": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/5mjOHUPzT8s/",
-		"domain": "feedproxy.google.com",
+		"url": "https://aws.amazon.com/blogs/aws/aws-lambda-a-look-back-at-2016/",
+		"domain": "aws.amazon.com",
 		"image": ""
 	},
 	{
@@ -19,7 +19,7 @@
 		"curated_id": "7116l6IUg3N1E5yZ23csS6D2K2YcMWZb7UWWJDtdVwuCRBis7lhLY3jVeDTdU1FTQ5T123BZQksY4IQjZ8VdnwUWbQ117117",
 		"item_date": "2017-01-12 00:00:00",
 		"title": "AWS Lambda Performance and Cold Starts",
-		"url": "https://dzone.com/articles/aws-lambda-performance-and-cold-starts?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/aws-lambda-performance-and-cold-starts",
 		"domain": "dzone.com",
 		"image": ""
 	},
