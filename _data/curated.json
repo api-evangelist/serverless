@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "92nKECXo9Ip0fvopN4wpMRMYypcheFuvkPDNnYHU11cb6FYpr6R7aF0FzB116F1umMP3djX0MT4aarD8pF7ndETA117117",
+		"item_date": "2017-02-15 00:00:00",
+		"title": "Building a Serverless Application with Stormpath Authentication",
+		"url": "http://stormpath.com/blog/serverless-application-stormpath-authentication",
+		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
 		"curated_id": "bwbTS24GQ9IcYzQ77f94Gx5PlbT3Br6KhNXdpFyssFerH9X5PbSdmTqdL5zmOcqQO9eM2lwQlUeq116zCI5bXy0Q117117",
 		"item_date": "2017-02-11 10:00:01",
 		"title": "Tweet Hear from Expedia ampamp how it uses serverless in its applications and workloads httpstcowxgrj34ezY",
