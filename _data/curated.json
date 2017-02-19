@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "lcNLf9kK123NZkazeXXJ2lmOyEJAYPFCz2bb1YEIHGukznusbJnkGAnsHSzNnE123Lkv1nejcMBra4AYXiwhUwQQyQ117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "Meet Backands New Serverless SDK",
+		"url": "http://blog.backand.com/meet-backands-new-serverless-sdk/",
+		"domain": "blog.backand.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HkTryx65LF8123T123GXBVd2r01EAsV0U5ME6ksXeFldpb79NJT116J3LTGYsHIVBvTAh6Db7nKEnoR1ZpVqcVawsmxg117117",
+		"item_date": "2017-02-16 00:00:00",
+		"title": "The Benefits of a Serverless API Backend",
+		"url": "http://nordicapis.com/the-benefits-of-a-serverless-api-backend/",
+		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
 		"curated_id": "92nKECXo9Ip0fvopN4wpMRMYypcheFuvkPDNnYHU11cb6FYpr6R7aF0FzB116F1umMP3djX0MT4aarD8pF7ndETA117117",
 		"item_date": "2017-02-15 00:00:00",
 		"title": "Building a Serverless Application with Stormpath Authentication",
