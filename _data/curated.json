@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "116CpIydbnQAhFo0PNY116f3ttoGjzAusp0116Z4m5ujKC42ORxaRhPo6pCKNdeTRpJ1iMuqhBKgymVrQs0sO116fWgatA117117",
+		"item_date": "2017-02-18 00:00:00",
+		"title": "5 Potential Use Cases for Serverless Frameworks",
+		"url": "http://feedproxy.google.com/~r/ProgrammableWeb/~3/PgwW3e0Xny0/18",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
 		"curated_id": "lcNLf9kK123NZkazeXXJ2lmOyEJAYPFCz2bb1YEIHGukznusbJnkGAnsHSzNnE123Lkv1nejcMBra4AYXiwhUwQQyQ117117",
 		"item_date": "2017-02-14 00:00:00",
 		"title": "Meet Backands New Serverless SDK",
@@ -21,6 +29,14 @@
 		"title": "Building a Serverless Application with Stormpath Authentication",
 		"url": "http://stormpath.com/blog/serverless-application-stormpath-authentication",
 		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
+		"curated_id": "E7jVDam5123bboUlizOldhnm22skeD99BVLnyUWZDY9zmEnGhvAmxo7RXkejB4ECCifWHtCi71123skq3rm1GJ9jqw117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "The Freedom of AWS Lambda",
+		"url": "https://dzone.com/articles/the-freedom-of-aws-lambda",
+		"domain": "dzone.com",
 		"image": ""
 	},
 	{
