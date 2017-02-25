@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "XPP0gsk1Gxirtsp5dCDNEkb5PKluT8xEARAh4QrbdH2CzcMYS7123ER1dTzMDJrPWPZVjxze123p254DpnzCMqqqRA117117",
+		"item_date": "2017-02-24 00:00:00",
+		"title": "Serverless REST API with Angular Persistence and Security",
+		"url": "https://dzone.com/articles/serverless-rest-api-with-angular-persistence-and-s?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "KXsNEiMP2hetR4uhxelgoo9voGA5TPSBQYJ84BZgBlkdjNgsGE8c9iagub4YsSINshqAhLPRirIfikkg0VGe9Q117117",
+		"item_date": "2017-02-24 00:00:00",
+		"title": "Integrate AWS Lambda into your Backendless apps",
+		"url": "https://backendless.com/integrate-aws-lambda-into-your-backendless-apps/",
+		"domain": "backendless.com",
+		"image": ""
+	},
+	{
 		"curated_id": "116CpIydbnQAhFo0PNY116f3ttoGjzAusp0116Z4m5ujKC42ORxaRhPo6pCKNdeTRpJ1iMuqhBKgymVrQs0sO116fWgatA117117",
 		"item_date": "2017-02-18 00:00:00",
 		"title": "5 Potential Use Cases for Serverless Frameworks",
