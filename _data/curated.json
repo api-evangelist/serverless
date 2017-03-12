@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "7RtDgKBAQAPWVlAj7eo2W8a9DGw2AtoNmjOdfXVbsheAwK6K4Qu8CwNuz1169cs3X3RpF4p116NTPy5tveAXwCJybA117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Using Serverless Azure Functions with Auth0 and Google APIs",
+		"url": "https://auth0.com/blog/using-serverless-azure-functions-with-auth0-and-google-apis/",
+		"domain": "auth0.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mpEKEla7UOYcQQo116Dh1kEynAP7GEsfOP8kZpZIfDk5Y2w123u3a8Gd5484eYDGVNub49sjHuXMG9TmxJOKE5hYXQ117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Continuously Encrypt Amazon Redshift Loads with S3 KMS and Lambda",
+		"url": "https://dzone.com/articles/continuously-encrypt-amazon-redshift-loads-with-s3",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cq116nKMItzUBbtrEpkdXtS116BGoO5wsXsT6cuX48Jv8MmITaPGfjKN52oFQCsO2qlVZNTTEkZ0xKC0JB892nURNQ117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Serverless Computing Dont Throw Your Servers Away Just Yet",
+		"url": "https://www.channele2e.com/2017/03/10/serverless-computing-dont-throw-servers-away-just-yet/",
+		"domain": "www.channele2e.com",
+		"image": ""
+	},
+	{
 		"curated_id": "K4OrWtjGcENfGzhAYz8sR4lg1Hp4qoCRFaRDfZ791165S1RWaX6kwKkToKsGFDuTHBbXzW3dRB116dJEyvbaVBVW0w117117",
 		"item_date": "2017-03-03 17:19:14",
 		"title": "Best practices  AWS Lambda function",
