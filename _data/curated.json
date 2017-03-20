@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "ISbPozSqMiYCRFLs3s4spAyRxvysn0EquuUa0r116pgGKO3oMMZIN2pZOKn49i5VnEHGcaPiVr116xSGivlFtvaIyg117117",
+		"item_date": "2017-03-16 14:29:30",
+		"title": "Automating AWS Lambda Function Error Handling with AWS Step Functions",
+		"url": "https://aws.amazon.com/blogs/compute/automating-aws-lambda-function-error-handling-with-aws-step-functions/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "KtRj1g42116Lj33GcX8y2FHzaQ123Tp116C5dpMXYWlZVvosDjmW0z8c5h116NupsQYBZ0xcojP6C6hDFfEON123c116D44Vmg117117",
+		"item_date": "2017-03-15 00:00:00",
+		"title": "Understand Serverless Architecture in Three Minutes",
+		"url": "https://www.digitalgov.gov/2017/03/15/the-data-briefing-understand-serverless-architecture-in-three-minutes/",
+		"domain": "www.digitalgov.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "HxloJAo72xgUo6aQS116Yzj4V12aeXmDkvd0wMB116qsCGyi25ElXK297iXPDxM4yqHfY116JpmgSm4ZAetLs123JcXtlw117117",
+		"item_date": "2017-03-16 00:00:00",
+		"title": "A Nice API Design Gem Strategy Pattern With Lambdas",
+		"url": "https://blog.jooq.org/2017/03/17/a-nice-api-design-gem-strategy-pattern-with-lambdas/",
+		"domain": "blog.jooq.org",
+		"image": ""
+	},
+	{
 		"curated_id": "7RtDgKBAQAPWVlAj7eo2W8a9DGw2AtoNmjOdfXVbsheAwK6K4Qu8CwNuz1169cs3X3RpF4p116NTPy5tveAXwCJybA117117",
 		"item_date": "2017-03-10 00:00:00",
 		"title": "Using Serverless Azure Functions with Auth0 and Google APIs",
