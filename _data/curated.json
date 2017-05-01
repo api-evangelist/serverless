@@ -120,14 +120,6 @@
 		"image": ""
 	},
 	{
-		"curated_id": "9o4ONDLgZzQsLFScqzKX123QO5bH9PPxhMKtduasD0iGUDLUmGAhN2W6JfFsS9S96k4uPZogPbBTBhFi8QK5TIRQ117117",
-		"item_date": "2017-03-29 12:00:23",
-		"title": "Twitter",
-		"url": "https://twitter.com/i/web/status/847161532475674627",
-		"domain": "twitter.com",
-		"image": ""
-	},
-	{
 		"curated_id": "ftJNmUmLcBZrKmV8Yeh3xTtgypb7S116M8ZtUAFeFcRRbA2xfWu1z123eGKriO4fdSXO48IW6Et7KLKqQC0HGjGQzA117117",
 		"item_date": "2017-03-23 20:00:46",
 		"title": "Serverless Stack  Stepbystep tutorials for creating serverless Reactjs apps",
@@ -253,14 +245,6 @@
 		"title": "Adapting Serverless Architecture",
 		"url": "https://dzone.com/articles/adapting-serverless-architecture",
 		"domain": "dzone.com",
-		"image": ""
-	},
-	{
-		"curated_id": "vF5eVNXXD123J87K1wyCEnzN123l4Oev5vkgR1jPaWGQnql8jKckevz7VEPWoEZfzXo9emG9fc4pb3ZTbqrqBejvKQ117117",
-		"item_date": "2017-03-02 13:01:04",
-		"title": "Twitter",
-		"url": "https://twitter.com/kinlane/status/837407429864394752/photo/1",
-		"domain": "twitter.com",
 		"image": ""
 	},
 	{
@@ -400,14 +384,6 @@
 		"image": ""
 	},
 	{
-		"curated_id": "QM7AwJSue2QscSM0cQhZLneB8dc8kXRoOsX123VhB6gZvEh1fVbbFgEm3DD81w116HuLzEyR2DGzsBLKea2JFDQPPQ117117",
-		"item_date": "2017-02-06 00:00:00",
-		"title": "Build em now 5 uses for serverless frameworks",
-		"url": "http://hardware_software.complexdoc.ru/4098572.html",
-		"domain": "hardware_software.complexdoc.ru",
-		"image": ""
-	},
-	{
 		"curated_id": "WX1ZOhcuyYsZ3mhi2o6FUJPwsfGbyOvERQMxoBVLk6YaXk6WukuxgYlcDnJp36OjDEr77wDq123nvkQRsetfKrGg117117",
 		"item_date": "2017-01-30 00:00:00",
 		"title": "Fission Serverless Functions as a Service for Kubernetes",
@@ -509,14 +485,6 @@
 		"title": "REST With Lambdas and Wicket 8",
 		"url": "https://dzone.com/articles/rest-with-lamdas-and-wicket-8",
 		"domain": "dzone.com",
-		"image": ""
-	},
-	{
-		"curated_id": "bRLBd59ZBjdAL190DOZPhDyKaM06RX5afiAKrgXHQfO2j8wylefJgbEcXxbHzAGJL89I6tKgBE8BxDMxkgKmJA117117",
-		"item_date": "2016-12-17 12:07:20",
-		"title": "Twitter",
-		"url": "https://twitter.com/i/web/status/810214817457983488",
-		"domain": "twitter.com",
 		"image": ""
 	},
 	{
