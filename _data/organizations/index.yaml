@@ -1,0 +1,283 @@
+- slug: amazon-web-services
+  name: Amazon Web Services
+  description: >-
+    Amazon Web Services(AWS) is a collection of remote computing services (also
+    called web services) that together make up a cloud computing platform,
+    offered over the Internet by Amazon.com. The most central and well-known of
+    these services are Amazon EC2 and Amazon S3. The service is advertised as
+    providing a large computing capacity (potentially many servers) much faster
+    and cheaper than building a physical server farm.
+  url: 'http://aws.amazon.com'
+  short_url: ''
+  twitter: 'https://twitter.com/awscloud'
+  blog: 'http://aws.amazon.com/blogs/aws/'
+  blog_rss: 'http://feeds.feedburner.com/AmazonWebServicesBlog'
+  github: 'https://github.com/amazonwebservices'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/amazon-aws-logo.jpg
+  tags: >-
+    Storage,DNS,BaaS,Payments,Hypermedia,Cloud,Compute,My API
+    Stack,Management,Voice,Partners,Plans,API LIfeycle,Real
+    Time,Serverless,Advertising,Commerce,Database,Command Line Interface,DNS
+    Cloud,Getting Started,Orchestration
+- slug: glot.io
+  name: glot.io
+  description: >-
+    glot.io lets you run and share snippets. Snippets can be saved as either
+    public or secret. Public snippets will show up in /snippets and will be
+    found by search engines. Secret snippets can only be accessed by those who
+    know the url. Code is executed inside a temporary container without a
+    network connection. Execution time is limited to 15 seconds and the output
+    can not exceed 100KiB.
+  url: 'https://glot.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/glotcode'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/glot-io-logo.png
+  tags: 'Serverless,Snippets,Pastebin'
+- slug: webtask
+  name: Webtask
+  description: >-
+    Run code with an HTTP call. No provisioning. No deployment. Run server-side
+    code for your JavaScript and native applications. Just worry about your
+    code. Run code on each Stripe Payment, a GitHub Push, or any webhook,
+    without setting up servers. Allow your customers to extend your product
+    using Node.js code instead of creating your own DSL.
+  url: 'https://webtask.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/webtaskio'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webtask-io-logo.png
+  tags: 'Serverless,Deployment,Webhooks'
+- slug: google-cloud-functions
+  name: Google Cloud Functions
+  description: >-
+    Cloud computing has made possible fully serverless models of computing where
+    logic can be spun up on-demand in response to events originating from
+    anywhere. Construct applications from bite-sized business logic billed to
+    the nearest 100 milliseconds, only while your code is running. Serve users
+    from zero to planet-scale, all without managing any infrastructure.
+  url: 'https://cloud.google.com/functions/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cloud-Functions.png
+  tags: 'Serverless,Deployment,Google APIs'
+- slug: brightwork
+  name: BrightWork
+  description: >-
+    Leverage your front end development skills to build full stack applications
+    without having to learn the complexities of server side architecture. Focus
+    on writing your apps, not learning server side languages, frameworks and
+    infrastructure. With BrightWork you write all of your code in Javascript and
+    we deploy it to our highly available and reliable cloud infrastructure.
+  url: 'http://www.brightwork.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/brightwork_io'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/TeamBrightWork'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/brightwork-logo.png
+  tags: 'Serverless,Deployment'
+- slug: stackery
+  name: Stackery
+  description: >-
+    Design, deploy, and monitor your cloud-native applications, easily.
+    Applications running on serverless architectures scale up and down on demand
+    with high availability. There is no need to provision or manage servers.
+    Your code runs only when it's needed, and you only pay for the compute time
+    you use. Stackery provides operational tools for developers building
+    serverless applications. Easily detect and surface application errors,
+    version control your serverless infrastructure, and securely manage
+    configurations and deployments. Stackery helps developers build
+    production-grade serverless applications by providing an abstraction layer
+    on top of base serverless technologies like AWS Lambda. Stackery allows you
+    to focus on your business logic rather than configuring infrastructure
+    services.
+  url: 'https://www.stackery.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/stackeryio'
+  blog: 'https://www.stackery.io/blog'
+  blog_rss: 'https://www.stackery.io/blog/rss.xml'
+  github: 'https://github.com/stackery'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stacker-logo-index.png
+  tags: 'Serverless,Deployment'
+- slug: hyper
+  name: Hyper
+  description: >-
+    Hyper is Hypercard for the modern age, and allows you to make your own
+    mini-apps for mobile and desktop, capture and organize information, and
+    publish on the web.
+  url: 'https://hyperrr.co/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Hyper_Hypercard_for_the_modern_age.png
+  tags: 'Serverless,Bots,Deployment'
+- slug: serverless
+  name: Serverless
+  description: >-
+    The Serverless Framework is an application framework for building web,
+    mobile and IoT applications powered by AWS Lambda, AWS API Gateway and in
+    the future other Function as a Service providers.
+  url: 'http://serverless.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/goserverless'
+  blog: 'http://blog.serverless.com/'
+  blog_rss: ''
+  github: 'https://github.com/serverless'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/serverless-framework-logo.png
+  tags: Serverless
+- slug: webscript.io
+  name: webscript.io
+  description: >-
+    Webscripts respond to HTTP requests, making them easy to call from web and
+    mobile apps. Webscripts have all the features you need, like password
+    hashing and persistent storage, plus the full programmability of Lua. Many
+    developer tools, such as GitHub and Stripe, offer webhooks as a way of
+    delivering notifications. Webscripts are a fast and easy way to receive
+    those webhooks. Our built-in request logging makes them equally easy to
+    debug on-the-fly. Webscripts can also be activated on a schedule, providing
+    a simple way to build monitoring or other automation.
+  url: 'https://www.webscript.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/webscriptio'
+  blog: 'http://blog.webscript.io/'
+  blog_rss: 'http://blog.webscript.io/rss.xml'
+  github: 'https://github.com/WebScript'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/webscript-logo.png
+  tags: 'Scripting,Webhooks,Webhook Platform,Webhooks Service,Serverless'
+- slug: weblab
+  name: weblab
+  description: >-
+    Microservices at your fingertips. no provisioning or deployments required.
+    give your IoT device compute super powers. Run code in response to events.
+    Your microservice up in less than 7 seconds. Use our awesome CLI to spin a
+    service in seconds. You can also integrate with your favourite CI/CD
+    solution for automated deployments. Run your code with just an HTTPS call.
+    As simple as that. Your mobile or IoT device gets compute superpowers.
+  url: 'https://weblab.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/weblabhq'
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weblab-io-logo.png
+  tags: 'Microservices,Deployment,Internet of Things,Serverless'
+- slug: microsoft-azure
+  name: Microsoft Azure
+  description: >-
+    Microsoft Azure is a cloud computing platform and infrastructure created by
+    Microsoft for building, deploying, and managing applications and services
+    through a global network of Microsoft-managed datacenters. It provides both
+    PaaS and IaaS services and supports many different programming languages,
+    tools and frameworks, including both Microsoft-specific and third-party
+    software and systems
+  url: 'https://azure.microsoft.com/en-us/'
+  short_url: ''
+  twitter: 'https://twitter.com/azure'
+  blog: 'http://azure.microsoft.com/blog/'
+  blog_rss: 'http://azure.microsoft.com/blog/feed/'
+  github: 'https://github.com/Azure'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-azure-logo.png
+  tags: >-
+    Management,API Management
+    Other,Deployment,Compute,Database,Serverless,Portal,Command Line
+    Interface,DNS,DNS Cloud,Reliability,Service Level Agreement,Cloud,Bigcos
+- slug: stackhut
+  name: nStack
+  description: >-
+    Deploy data-science models to the cloud and build workflows with databases,
+    APIs, and more.
+  url: 'http://nstack.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/nstackcom'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/nstack/nstack'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stackhut-logo.png
+  tags: 'Deployment,Serverless,Containers,Microservices'
+- slug: algorithmia
+  name: Algorithmia
+  description: "We are building a community around state-of-the-art algorithm development. Users can\_create, share, and build on other algorithms\_and then instantly make them available as a\_web service."
+  url: 'https://algorithmia.com'
+  short_url: ''
+  twitter: 'https://twitter.com/algorithmia'
+  blog: 'http://blog.algorithmia.com/'
+  blog_rss: 'http://blog.algorithmia.com/rss'
+  github: 'https://github.com/algorithmiaio'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/algorithmia-logo.png
+  tags: 'Deployment,Serverless,Algorithms'
+- slug: magicstack.io
+  name: Magicstack.io
+  description: >-
+    A serverless REST API platform that gives you more features with less code.
+    Building Blocks for Next Generation Applications.
+  url: 'http://magicstack.io/'
+  short_url: ''
+  twitter: 'https://twitter.com/MagicStack'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/MagicStack'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/magicstack-io.png
+  tags: 'Deployment,Serverless'
+- slug: iron.io
+  name: Iron.io
+  description: >-
+    Iron.io is a cloud application services provider. Available on multiple
+    platforms and clouds, Iron.io products eliminate the need to worry about
+    managing and scaling infrastructure, letting developers focus on building
+    great applications. IronMQ, an industrial-strength message queue, and
+    IronWorker, a high-scale task queue, are elastic, durable and
+    high-performance application services built with the cloud in mind.
+  url: 'http://www.iron.io'
+  short_url: ''
+  twitter: 'https://twitter.com/getiron'
+  blog: 'https://www.iron.io/blog/'
+  blog_rss: 'http://blog.iron.io/feeds/posts/default?alt=rss'
+  github: 'https://github.com/iron-io'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ironio-logo.png
+  tags: >-
+    Cloud,Messaging,Scheduling,Tasks,Tasking,Webhooks,Worker,Webhooks
+    Service,API LIfeycle,Target,Serverless
+- slug: aws-lambda
+  name: AWS Lambda
+  description: >-
+    AWS Lambda is a zero-administration compute platform for back-end web
+    developers that runs your code for you in the AWS&nbsp;cloud&nbsp;and
+    provides you with a fine-grained pricing structure. AWS Lambda runs your
+    back-end code on its own AWS compute fleet of Amazon Elastic Compute Cloud
+    (Amazon EC2) instances across multiple Availability Zones in a region, which
+    provides the high availability, security, performance, and scalability of
+    the AWS infrastructure.
+  url: 'http://docs.aws.amazon.com/lambda/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  tags: 'Amazon Web Services,Serverless,Deployment'
