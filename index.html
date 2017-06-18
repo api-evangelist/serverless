@@ -141,7 +141,7 @@ title: API Evangelist - Serverless
 
 <!-- Tools -->
 <a name="Tools"></a>
-{% assign approved_tags = 'API Specification,Generator,Validator,API Serverless Guide,Data Specification,Serverless Editor,Serverless Notebook,Hypermedia,IDE,Semantics,gRPC' %}
+{% assign approved_tags = 'Serverless' %}
 {% assign tool_content = site.data.tool_content.index[0] %}
 <section>
 	<header>
@@ -156,7 +156,7 @@ title: API Evangelist - Serverless
 			{% assign tagArray = tags | split: "," %}
 			{% for tag in tagArray %}
 				{% assign tag = tag | strip %}
-				{% if approved_tags contains tag and tag != site.tag %}
+				{% if approved_tags contains tag %}
 					{% if tagslist contains tag %}
 					{% else %}
 						{% if tagslist != '' %}
