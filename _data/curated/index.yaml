@@ -401,15 +401,6 @@
   url: http://codebetter.com/glennblock/2016/09/20/a-new-serverless-adventure-at-auth0/
   domain: codebetter.com
   image: ""
-- curated_id: 430d6b0b85771e86df01bedc384866d1
-  item_date: "2016-09-20 08:01:03"
-  title: |-
-    Tweet: What are Webtasks and how to go #serverless with them?
-
-    https://t.co/zb9fHrVkDh #nodejs https://t.co/CKOynqPmat
-  url: https://twitter.com/webtaskio/statuses/778247608078741505
-  domain: twitter.com
-  image: ""
 - curated_id: 2b819311df492fde9ee85f779ae7c1ed
   item_date: "2016-09-20 16:52:57"
   title: 'Tweet: No servers, no shenanigans. Now it#039;s even easier to build Twilio
@@ -541,7 +532,7 @@
   image: ""
 - curated_id: 42600742d62a7f8d622ddcb004e5ba2b
   item_date: "2017-01-14 00:00:00"
-  title: "AWS Lambda \u2013 A Look Back at 2016"
+  title: "AWS Lambda - A Look Back at 2016"
   url: https://aws.amazon.com/blogs/aws/aws-lambda-a-look-back-at-2016/
   domain: aws.amazon.com
   image: ""
