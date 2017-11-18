@@ -1,8 +1,8 @@
-- title: API Deployment News
+- title: Serverless API News
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-news-icon.png'
   header: >-
     These are the news items I've curated in my monitoring of the API space that
-    are related to deploying APIs and thought worth enough to include in my
+    are related to serverless and APIs and thought worth enough to include in my
     research. I'm using all of these links to better understand how APIs are
     being deployed across a diverse range of implementations.
   footer: >-
