@@ -1,264 +1,147 @@
-- building_block_id: load-testing
-  type: Testing
-  category: Core Testing
-  name: Load Testing
-  description: Offer loading testing services for HTTP endpoints.
+- building_block_id: database
+  type: Deployment
+  category: Data
+  name: Database
+  description: >-
+    Connecting to a database and generating a CRUD, or create, read, update and
+    delete API on an existing data source.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-load-testing.jpeg
-  tags: Testing
-- building_block_id: response-header-inspector
-  type: Testing
-  category: Core Testing
-  name: Response Header Inspector
-  description: Ability to inspect a response header.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-database.png
+  tags: Deployment
+- building_block_id: comma-separate-file-csv
+  type: Deployment
+  category: Data
+  name: Comma Separate File (CSV)
+  description: >-
+    Deploying an API from comma separated files, providing a simple, delimited,
+    structured data store as a file rather than database.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-inspection.png
-  tags: Testing
-- building_block_id: response-body-inspector
-  type: Testing
-  category: Core Testing
-  name: Response Body Inspector
-  description: Ability to inspect a response body.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-csv.png
+  tags: Deployment
+- building_block_id: spreadsheet
+  type: Deployment
+  category: Data
+  name: Spreadsheet
+  description: >-
+    The deployment of an API from a web-based, or uploaded spreadsheet,
+    transforming the column, and data into a web API.
+  image: ''
+  tags: Deployment
+- building_block_id: javascript-object-notation-json
+  type: Deployment
+  category: Data
+  name: JavaScript Object Notation (JSON)
+  description: >-
+    Deploying an API from JSON file, providing a simple, delimited, structured
+    data store as a file rather than database.
+  image: ''
+  tags: Deployment
+- building_block_id: framework
+  type: Deployment
+  category: Code
+  name: Framework
+  description: >-
+    Crafting and API using an existing API framework in a particular programming
+    language, providing the HTTP scaffolding needed.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-inspection.png
-  tags: Testing
-- building_block_id: request-retry
-  type: Testing
-  category: Core Testing
-  name: Request Retry
-  description: Ability to retry a specific request.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ladder.png
+  tags: Deployment
+- building_block_id: github
+  type: Deployment
+  category: Code
+  name: Github
+  description: >-
+    Provides a simple way to publish documentation, code libraries, TOS, and
+    other common building blocks in support of API operations.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-retry.png
-  tags: Testing
-- building_block_id: request-sharing
-  type: Testing
-  category: Core Testing
-  name: Request Sharing
-  description: Allow for the sharing of requests.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg
+  tags: Deployment
+- building_block_id: serverless
+  type: Deployment
+  category: Code
+  name: Serverless
+  description: >-
+    Deployment of individual code, in a variety of languages, using cloud
+    serverless technology like AWS Lambda or Iron.io.
+  image: ''
+  tags: Deployment
+- building_block_id: onpremise
+  type: Deployment
+  category: Backend
+  name: On-Premise
+  description: >-
+    The deployment of APIs is done on-premise within an organizational
+    controlled datacenter.
+  image: ''
+  tags: Deployment
+- building_block_id: cloud
+  type: Deployment
+  category: Backend
+  name: Cloud
+  description: >-
+    Deployment of APis are done using cloud providers, where hosting is included
+    with other services.
+  image: ''
+  tags: Deployment
+- building_block_id: hosting
+  type: Deployment
+  category: Backend
+  name: Hosting
+  description: >-
+    Hosting is all about where you are going to park your API. Usual deployments
+    are on-premise within your company or data center, in a public cloud like
+    Amazon Web Services or a hybrid of the two.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-sharing.jpeg
-  tags: Testing
-- building_block_id: request-playback
-  type: Testing
-  category: Core Testing
-  name: Request Playback
-  description: Enable the playback of a single request.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hosting
+  tags: Deployment
+- building_block_id: gateway
+  type: Deployment
+  category: Connection
+  name: Gateway
+  description: >-
+    API gateways provide a solution for tapping into internal systems and
+    connecting with external platforms, to expose APIs.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-play.jpg
-  tags: Testing
-- building_block_id: request-scheduling
-  type: Testing
-  category: Core Testing
-  name: Request Scheduling
-  description: Allow for the scheduling of requests at a specific time.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy-left.png
+  tags: Deployment
+- building_block_id: proxy
+  type: Deployment
+  category: Connection
+  name: Proxy
+  description: >-
+    API proxy are common place for taking an existing API interface, running it
+    through an intermediary which allows for translations, transformations and
+    other added services on top of API.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scheduling.jpeg
-  tags: Testing
-- building_block_id: request-compare
-  type: Testing
-  category: Core Testing
-  name: Request Compare
-  description: Allow for the comparing of two requests.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-proxy.png
+  tags: Deployment
+- building_block_id: connector
+  type: Deployment
+  category: Connection
+  name: Connector
+  description: >-
+    Contrary to an API proxy, there are API solutions that are proxyless, while
+    just allowing an API to connect or plugin to the advanced API resources
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compare.png
-  tags: Testing
-- building_block_id: request-scripting
-  type: Testing
-  category: Core Testing
-  name: Request Scripting
-  description: Provide the ability to script against requests.
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-connector
+  tags: Deployment
+- building_block_id: real-time
+  type: Deployment
+  category: Other
+  name: Real Time
+  description: >-
+    Providing a way to deploy APIs that are real time, either directly from
+    sources, or on top of existing APIs.
+  image: ''
+  tags: Deployment
+- building_block_id: scraping
+  type: Deployment
+  category: Other
+  name: Scraping
+  description: >-
+    Harvesting or scraping of data from an existing website, content or data
+    source, when an existing data source is unavailable, and then publishing as
+    an API.
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-html-code.png
-  tags: Testing
-- building_block_id: request-automation
-  type: Testing
-  category: Core Testing
-  name: Request Automation
-  description: Allow for the automation of multiple requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-clock-gear.png
-  tags: Testing
-- building_block_id: request-commenting
-  type: Testing
-  category: Core Testing
-  name: Request Commenting
-  description: Enabling users to comment on a specific request.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-chat.png
-  tags: Testing
-- building_block_id: simulator
-  type: Testing
-  category: Core Testing
-  name: Simulator
-  description: Provide tools for simulating requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-siimulation.png
-  tags: Testing
-- building_block_id: templates
-  type: Testing
-  category: Core Testing
-  name: Templates
-  description: Offer templates of common or specialized requests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-data-template.png
-  tags: Testing
-- building_block_id: data-scenarios
-  type: Testing
-  category: Core Testing
-  name: Data Scenarios
-  description: Provide specific data scenarios that can be executed.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scenario.png
-  tags: Testing
-- building_block_id: region-based-testing
-  type: Testing
-  category: Targeted Testing
-  name: Region Based Testing
-  description: Allow for testing from a specific region.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-region.png
-  tags: Testing
-- building_block_id: provider-based-testing
-  type: Testing
-  category: Targeted Testing
-  name: Provider Based Testing
-  description: Allow for testing from a specific provider
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-api-provider.png
-  tags: Testing
-- building_block_id: basicauth
-  type: Testing
-  category: Authentication
-  name: Basic-Auth
-  description: Use Basic Auth for authentication.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-basic-auth.jpg
-  tags: Testing
-- building_block_id: api-keys
-  type: Testing
-  category: Authentication
-  name: API Keys
-  description: Use API keys for authentication.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-key.png
-  tags: Testing
-- building_block_id: oauth
-  type: Testing
-  category: Authentication
-  name: OAuth
-  description: Use OAuth for authentication.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oauth-logo.png
-  tags: Testing
-- building_block_id: collections
-  type: Testing
-  category: Utility
-  name: Collections
-  description: Allow tests to be organized into collections.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-collection.png
-  tags: Testing
-- building_block_id: command-line-interface
-  type: Testing
-  category: Utility
-  name: Command Line Interface
-  description: Provide a command line interface for working with tests.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
-  tags: Testing
-- building_block_id: teams
-  type: Testing
-  category: Utility
-  name: Teams
-  description: Allow for team interaction when testing.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-team-male-female.png
-  tags: Testing
-- building_block_id: api
-  type: Testing
-  category: Utility
-  name: API
-  description: Provide an API for all parts of testing platform.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/api-commons-icon.png
-  tags: Testing
-- building_block_id: postman
-  type: Testing
-  category: Import
-  name: Postman
-  description: Allow for the importing of APIs with Postman.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-postman.png
-  tags: Testing
-- building_block_id: openapi-spec
-  type: Testing
-  category: Import
-  name: OpenAPI Spec
-  description: Allow for the importing of APIs with OpenAPI Spec.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-swagger-round.png
-  tags: Testing
-- building_block_id: raml
-  type: Testing
-  category: Import
-  name: RAML
-  description: Allow for the importing of APIs with RAML.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-raml.png
-  tags: Testing
-- building_block_id: har
-  type: Testing
-  category: Import
-  name: HAR
-  description: Allow for the importing of APIs with HAR
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-har-file.png
-  tags: Testing
-- building_block_id: jmeter
-  type: Testing
-  category: 3rd Party
-  name: JMeter
-  description: Provide 3rd party integration with JMeter.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/jmeter-logo.jpg
-  tags: Testing
-- building_block_id: selenium
-  type: Testing
-  category: 3rd Party
-  name: Selenium
-  description: Provide 3rd party integration with Selenium.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/selenium-icon.png
-  tags: Testing
-- building_block_id: jenkins
-  type: Testing
-  category: 3rd Party
-  name: Jenkins
-  description: Provide 3rd party integration with Jenkins.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/jenkins-logo.png
-  tags: Testing
-- building_block_id: teamcity
-  type: Testing
-  category: 3rd Party
-  name: TeamCity
-  description: Provide 3rd party integration with TeamCity.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/teamcity_logo.png
-  tags: Testing
-- building_block_id: bamboo
-  type: Testing
-  category: 3rd Party
-  name: Bamboo
-  description: Provide 3rd party integration with Bamboo.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bamboo-icon.png
-  tags: Testing
-- building_block_id: travis
-  type: Testing
-  category: 3rd Party
-  name: Travis
-  description: Provide 3rd party integration with Travis.
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/travis-mascot-200px.png
-  tags: Testing
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-scraper.jpg
+  tags: Deployment

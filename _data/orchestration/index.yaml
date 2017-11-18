@@ -1,0 +1,461 @@
+---
+- slug: aws-code-pipeline
+  name: AWS Code Pipeline
+  description: AWS Data Pipeline is a web service that helps you reliably process
+    and move data between different AWS compute and storage services, as well as on-premise
+    data sources, at specified intervals. With AWS Data Pipeline, you can regularly
+    access your data where it&rsquo;s stored, transform and process it at scale, and
+    efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
+    Amazon DynamoDB, and Amazon EMR. AWS Data Pipeline helps you easily create complex
+    data processing workloads that are fault tolerant, repeatable, and highly available.
+    You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
+    dependencies, retrying transient failures or timeouts in individual tasks, or
+    creating a failure notification system. AWS Data Pipeline also allows you to move
+    and process data that was previously locked up in on-premise data silos.
+  url: https://aws.amazon.com/datapipeline/
+  shorturl: ""
+  twitter: ""
+  blog: http://blogs.aws.amazon.com/bigdata
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  tags: Amazon Web Services,SDK,Data,Migration,Orchestration
+- slug: aws-codebuild
+  name: AWS CodeBuild
+  description: AWS CodeBuild is a fully managed build service that compiles source
+    code, runs tests, and produces software packages that are ready to deploy. With
+    CodeBuild, you don&rsquo;t need to provision, manage, and scale your own build
+    servers. CodeBuild scales continuously and processes multiple builds concurrently,
+    so your builds are not left waiting in a queue. You can get started quickly by
+    using prepackaged build environments, or you can create custom build environments
+    that use your own build tools. With CodeBuild, you are charged by the minute for
+    the compute resources you use.
+  url: https://aws.amazon.com/codebuild/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-build-console-icon.png
+  tags: Amazon Web Services,SDK,Orchestration
+- slug: aws-codecommit
+  name: AWS CodeCommit
+  description: AWS CodeCommit is a fully-managed source control service that makes
+    it easy for companies to host secure and highly scalable private Git repositories.
+    CodeCommit eliminates the need to operate your own source control system or worry
+    about scaling its infrastructure. You can use CodeCommit to securely store anything
+    from source code to binaries, and it works seamlessly with your existing Git tools.
+  url: https://aws.amazon.com/codecommit/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  tags: Amazon Web Services,SDK,Orchestration
+- slug: aws-codedeploy
+  name: AWS CodeDeploy
+  description: AWS CodeDeploy is a service that automates code deployments to any
+    instance, including Amazon EC2 instances and instances running on-premises. AWS
+    CodeDeploy makes it easier for you to rapidly release new features, helps you
+    avoid downtime during application deployment, and handles the complexity of updating
+    your applications. You can use AWS CodeDeploy to automate software deployments,
+    eliminating the need for error-prone manual operations, and the service scales
+    with your infrastructure so you can easily deploy to one instance or thousands.
+  url: https://aws.amazon.com/codedeploy/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
+  tags: Amazon Web Services,SDK,Orchestration
+- slug: aws-opsworks
+  name: AWS OpsWorks
+  description: AWS OpsWorks is a configuration management service that uses Chef,
+    an automation platform that treats server configurations as code. OpsWorks uses
+    Chef to automate how servers are configured, deployed, and managed across your
+    Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises compute environments.
+    OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
+  url: https://aws.amazon.com/opsworks/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  tags: Amazon Web Services,Orchestration
+- slug: aws-simple-queue-service
+  name: AWS Simple Queue Service
+  description: Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully
+    managed message queuing service. Amazon SQS makes it simple and cost-effective
+    to decouple the components of a cloud application. You can use Amazon SQS to transmit
+    any volume of data, without losing messages or requiring other services to be
+    always available. Amazon SQS includes&nbsp;standard queues&nbsp;with high throughput
+    and at-least-once processing, and&nbsp;FIFO queues&nbsp;that provide FIFO (first-in,
+    first-out) delivery and exactly-once processing. &nbsp; With Amazon SQS, you can
+    offload the administrative burden of operating and scaling a highly available
+    messaging cluster, while paying a low price for only what you use.
+  url: https://aws.amazon.com/sqs/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
+  tags: Amazon Web Services,Jobs,Orchestration
+- slug: aws-step-functions
+  name: AWS Step Functions
+  description: AWS Step Functions makes it easy to coordinate the components of distributed
+    applications and microservices using visual workflows. Building applications from
+    individual components that each perform a discrete function lets you scale and
+    change applications quickly. Step Functions is a reliable way to coordinate components
+    and step through the functions of your application. Step Functions provides a
+    graphical console to arrange and visualize the components of your application
+    as a series of steps. This makes it simple to build and run multi-step applications.
+    Step Functions automatically triggers and tracks each step, and retries when there
+    are errors, so your application executes in order and as expected. Step Functions
+    logs the state of each step, so when things do go wrong, you can diagnose and
+    debug problems quickly. You can change and add steps without even writing code,
+    so you can easily evolve your application and innovate faster.  AWS Step Functions
+    manages the operations and underlying infrastructure for you to help ensure your
+    application is available at any scale.
+  url: https://aws.amazon.com/step-functions/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
+  tags: Amazon Web Services,Automation,Orchestration,iPaaS,Etl
+- slug: aws-xray
+  name: AWS X-Ray
+  description: AWS X-Ray helps developers analyze and debug production, distributed
+    applications, such as those built using a microservices architecture. With X-Ray,
+    you can understand how your application and its underlying services are performing
+    to identify and troubleshoot the root cause of performance issues and errors.
+    X-Ray provides an end-to-end view of requests as they travel through your application,
+    and shows a map of your applications underlying components. You can use X-Ray
+    to analyze both applications in development and in production, from simple three-tier
+    applications to complex microservices applications consisting of thousands of
+    services.
+  url: https://aws.amazon.com/xray/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png
+  tags: Amazon Web Services,Monitoring,Testing,Orchestration
+- slug: azure-automation
+  name: Azure Automation
+  description: Automate all of those frequent, time-consuming, and error-prone cloud
+    management tasks. Azure Automation helps you focus on work that adds business
+    value. By reducing errors and boosting efficiency, it also helps to lower your
+    operational costs.
+  url: https://azure.microsoft.com/en-us/services/automation/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
+  tags: Microsoft,Orchestration,Automation,Webhooks
+- slug: azure-devtest-labs
+  name: Azure DevTest Labs
+  description: Azure DevTest Labs makes it easy to quickly create environments to
+    deploy and test applications. Use reusable templates and artifacts to build Windows
+    and Linux environments while minimalizing waste and controlling costs.
+  url: https://azure.microsoft.com/en-us/services/devtest-lab/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
+  tags: Testing,Microsoft,Orchestration
+- slug: azure-event-hubs
+  name: Azure Event Hubs
+  description: Azure Event Hubs is a hyper-scale telemetry ingestion service that
+    collects, transforms, and stores millions of events. As a distributed streaming
+    platform, it gives you low latency and configurable time retention, which enables
+    you to ingress massive amounts of telemetry into the cloud and read the data from
+    multiple applications using publish-subscribe semantics.
+  url: https://azure.microsoft.com/en-us/services/event-hubs/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
+  tags: Microsoft,Jobs,Orchestration
+- slug: azure-scheduler
+  name: Azure Scheduler
+  description: Azure Scheduler lets you create jobs in the cloud that invoke services
+    inside and outside of Azure&mdash;such as calling HTTP/S endpoints or posting
+    messages to Azure Storage queues, or Azure Service Bus queues or topics. Run jobs
+    right away, on a recurring schedule, or at some point in the future.
+  url: https://azure.microsoft.com/en-us/services/scheduler/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-scheduler-create.png
+  tags: Microsoft,Scheduler,Orchestration,Jobs
+- slug: chef
+  name: Chef
+  description: Use Chef server as your foundation to create and manage flexible, dynamic
+    infrastructure whether you manage 50 or 500,000 nodes, across multiple datacenters,
+    public and private clouds, and in heterogeneous environments.
+  url: https://www.chef.io/
+  shorturl: ""
+  twitter: https://twitter.com/chef
+  blog: https://www.chef.io/blog/
+  blogrss: https://www.chef.io/blog/feed/
+  github: https://github.com/chef
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pic-chef-logo.png
+  tags: Orchestration
+- slug: ""
+  name: Circle CI
+  description: "CircleCI\u2019s continuous integration and delivery platform helps
+    software teams rapidly release code with confidence by automating the build, test,
+    and deploy process. CircleCI offers a modern software development platform that
+    lets teams ramp quickly, scale easily, and build confidently every day."
+  url: https://circleci.com/
+  shorturl: ""
+  twitter: https://twitter.com/circleci
+  blog: https://circleci.com/blog/
+  blogrss: https://circleci.com/blog/feed.xml
+  github: https://github.com/circleci
+  image: https://s3.amazonaws.com/kinlane-productions/circleci/circleci-logo-stacked-fb.png
+  tags: Orchestration,Deployment
+- slug: codeship
+  name: Codeship
+  description: Codeship is a hosted Continuous Delivery platform. It helps to release
+    software quickly, automatically and multiple times a day. It shortens the development
+    cycles thus reducing the risk of bugs and increasing innovation. It helps software
+    companies developing a better product faster by taking care of the testing and
+    release process. Managing your own continuous deployment system takes time, specialized
+    knowledge, custom solutions and dedicated, on-premise infrastructure. Codeship
+    automates software deployment and all the necessary tasks involved with it.
+  url: https://codeship.com/
+  shorturl: ""
+  twitter: https://twitter.com/codeship
+  blog: https://blog.codeship.com/
+  blogrss: http://blog.codeship.com/feed/
+  github: https://github.com/codeship
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/codeship-logo.png
+  tags: Orchestration,Containers
+- slug: datadog
+  name: DataDog
+  description: Datadog is a monitoring service that brings together metrics and events
+    from servers, databases, applications, tools and services to present a unified
+    view of the infrastructure. These capabilities are provided on a SaaS-based data
+    analytics platform that enables Dev and Ops teams to work collaboratively on the
+    infrastructure to avoid downtime, resolve performance problems, and ensure that
+    development and deployment cycles finish on time.
+  url: https://www.datadoghq.com/
+  shorturl: ""
+  twitter: https://twitter.com/datadoghq
+  blog: https://www.datadoghq.com/blog/
+  blogrss: https://www.datadoghq.com/feed/
+  github: https://github.com/datadog
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  tags: Monitoring,Performance,Orchestration,Aggregation
+- slug: flowdock
+  name: Flowdock
+  description: 'Flowdock is your team&rsquo;s shared inbox with group chat. Teams
+    using Flowdock stay up-to-date, react in seconds instead of hours, and never forget
+    anything. Flowdock brings activity from your project management tools (Pivotal
+    Tracker, JIRA), version control systems (GitHub, BitBucket, Kiln), customer feedback
+    channels (Zendesk, email lists) and many other sources to an easily consumable
+    stream. Team can then work on the issues together, and react in seconds. When
+    there&rsquo;s something worth remembering, #tag it in Flowdock! You&rsquo;ll easily
+    find those memos, code snippets and contacts when they&rsquo;re tagged. It can
+    be even used to build lists of #bugs, #todos, #competitors or whatever you&rsquo;d
+    like.'
+  url: https://www.flowdock.com
+  shorturl: ""
+  twitter: https://twitter.com/flowdock
+  blog: http://blog.flowdock.com/
+  blogrss: http://blog.flowdock.com/feed/
+  github: https://github.com/flowdock
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/789_logo.png
+  tags: Chat,Collaboration,Projects,Messaging,Orchestration
+- slug: google-cloud-deployment-manager
+  name: Google Cloud Deployment Manager
+  description: Google Cloud Deployment Manager allows you to specify all the resources
+    needed for your application in a declarative format using yaml. You can also use
+    Python or Jinja2 templates to parameterize the configuration and allow reuse of
+    common deployment paradigms such as a load balanced, auto-scaled instance group.
+    Treat your configuration as code and perform repeatable deployments.
+  url: https://cloud.google.com/deployment-manager/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/repeatable-deployment-process.png
+  tags: Deployment,Cloud,Orchestration,Google APIs
+- slug: google-cloud-resource-manager
+  name: Google Cloud Resource Manager
+  description: Google Cloud Platform provides resource containers such as Organizations
+    and Projects, that allow you to group and hierarchically organize other Cloud
+    Platform resources. This hierarchical organization lets you easily manage common
+    aspects of your resources such as access control and configuration settings. The
+    Google Cloud Resource Manager service enables you to programmatically manage these
+    resource containers.
+  url: https://cloud.google.com/resource-manager/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
+  tags: Orchestration,Google APIs,Management
+- slug: google-cloud-source-repositories
+  name: Google Cloud Source Repositories
+  description: Google Cloud Source Repositories provides Git version control to support
+    collaborative development of any application or service, including those that
+    run on Google App Engine and Google Compute Engine. If you are using the Stackdriver
+    Debugger, you can use Cloud Source Repositories and related tools to view debugging
+    information alongside your code during application runtime. Cloud Source Repositories
+    also provides a source browser that you can use to view your repository files
+    from within the Cloud Console.
+  url: https://cloud.google.com/source-repositories/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-repositories.png
+  tags: Google APIs,GitHub,Code,SDK,Orchestration
+- slug: google-dataflow
+  name: Google Dataflow
+  description: Dataflow is a unified programming model and a managed service for developing
+    and executing a wide range of data processing patterns including ETL, batch computation,
+    and continuous computation. Cloud Dataflow frees you from operational tasks like
+    resource management and performance optimization.
+  url: https://cloud.google.com/dataflow/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-dataflow.jpeg
+  tags: Data,iPaaS,Google APIs,Orchestration
+- slug: google-task-queue
+  name: Google Task Queue
+  description: The Task Queue API lets applications perform work, called tasks, asynchronously
+    outside of a user request. If an app needs to execute work in the background,
+    it adds tasks to task queues. The tasks are executed later, by scalable App Engine
+    worker services in your application.
+  url: https://cloud.google.com/appengine/docs/standard/python/taskqueue/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hands-on-app-engine-11-638.jpg
+  tags: Google APIs,Tasks,Jobs,Orchestration
+- slug: hashicorp
+  name: HashiCorp
+  description: HashiCorp is a company based in San Francisco that solves development,
+    operations, and security challenges in infrastructure so organizations can focus
+    on business-critical tasks. HashiCorp builds tools to ease these decisions by
+    presenting solutions that span the gaps. Our tools manage both physical machines
+    and virtual machines, Windows, and Linux, SaaS and IaaS, etc. And we're committed
+    to supporting next-generation technologies, as well.
+  url: https://www.hashicorp.com/
+  shorturl: ""
+  twitter: https://twitter.com/hashicorp
+  blog: https://www.hashicorp.com/blog.html
+  blogrss: https://www.hashicorp.com/feed.xml
+  github: https://github.com/hashicorp
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hashicorp.png
+  tags: Microservices,Logging,Orchestration,Automation
+- slug: jenkins
+  name: Jenkins
+  description: The leading open source automation server, Jenkins provides hundreds
+    of plugins to support building, deploying and automating any project.
+  url: https://jenkins.io/
+  shorturl: ""
+  twitter: https://twitter.com/jenkinsci
+  blog: https://jenkins.io/node/
+  blogrss: ""
+  github: https://github.com/jenkinsci
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/jenkins-logo.png
+  tags: Orchestration
+- slug: opsgenie
+  name: opsgenie
+  description: OpsGenie is a cloud based service that enables operations teams to
+    manage alerts generated by monitoring tools to ensure the right people are notified,
+    and the problems are addressed in a timely manner.&nbsp;
+  url: http://www.opsgenie.com/
+  shorturl: ""
+  twitter: https://twitter.com/opsgenie
+  blog: http://www.opsgenie.com/blog/
+  blogrss: http://feeds.feedburner.com/OpsgenieBlog
+  github: https://github.com/opsgenie
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logogenieorange.png
+  tags: Telco,Messaging,Notifications,Orchestration
+- slug: puppet-labs
+  name: Puppet Labs
+  description: Puppet Labs develops IT automation software. The company&rsquo;s flagship
+    products, Puppet and Puppet Enterprise, are designed to allow companies to automate
+    configuration management and infrastructure, cut costs and help organizations
+    better handle infrastructure management at scale.
+  url: http://puppetlabs.com/
+  shorturl: ""
+  twitter: https://twitter.com/puppetlabs
+  blog: http://puppetlabs.com/blog/
+  blogrss: http://feeds.feedburner.com/PuppetLabs
+  github: https://github.com/puppetlabs
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/puppet-labs-logo.png
+  tags: Orchestration
+- slug: tutum
+  name: Tutum
+  description: Tutum lets developers easily manage and run lightweight, portable,
+    self-sufficient containers from any application. The same container that a developer
+    builds and tests on a laptop can run at scale in Tutum. Their solution offers
+    users the best capabilities and features of IaaS and PaaS, without the shortcomings
+    or disadvantages of either one.
+  url: https://www.tutum.co/
+  shorturl: ""
+  twitter: https://twitter.com/tutumcloud
+  blog: http://blog.tutum.co/
+  blogrss: http://blog.tutum.co/feed/
+  github: https://github.com/tutumcloud
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tatum-logo.png
+  tags: Containers,Microservices,Orchestration,Command Line Interface
+- slug: victorops
+  name: VictorOps
+  description: VictorOps is a hub for centralizing the flow of information throughout
+    the incident lifecycle. Driven by IT and DevOps system data, VictorOps provides
+    a unified platform for real-time alerting, collaboration, and documentation. Using
+    VictorOps, teams resolve incidents faster to help minimize the impact of downtime
+    and speed innovation.
+  url: https://victorops.com
+  shorturl: ""
+  twitter: https://twitter.com/VictorOps
+  blog: https://victorops.com/blog/
+  blogrss: https://victorops.com/feed/
+  github: https://github.com/victorops
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/victorops.jpg
+  tags: Orchestration
+- slug: werker
+  name: Werker
+  description: Wercker is a continuous delivery platform focusing on changing the
+    way developers build and deploy their applications. This platform was built in
+    order to make developers' lives easier and enabling them to move fast and make
+    things.
+  url: http://wercker.com/
+  shorturl: ""
+  twitter: https://twitter.com/wercker
+  blog: http://blog.wercker.com/
+  blogrss: http://blog.wercker.com/rss.xml
+  github: https://github.com/wercker
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/werker-logo.png
+  tags: Microservices,Orchestration,Containers,Command Line Interface
+...

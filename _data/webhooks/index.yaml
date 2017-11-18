@@ -14,6 +14,23 @@
   github: https://github.com/akanainc
   image: ""
   tags: Enterprise,Management,Portal,Deployment,Gateway
+- slug: algolia
+  name: Algolia
+  description: Algolia provides a hosted search API that allows websites and mobile
+    applications to increase user engagement and conversions. Algolia API returns
+    search results in milliseconds, with a search-as-you-type experience for their
+    end users. Algolia offers out-of-the-box support for every language, is typo-tolerant,
+    and allows easy ranking configuration for your data set. Algolia allows any developer
+    to build the search engine they want quickly and easily and serves today more
+    than 5B queries per month with 99.99% SLA.
+  url: http://www.algolia.com/
+  shorturl: ""
+  twitter: https://twitter.com/algolia
+  blog: http://blog.algolia.com
+  blogrss: http://feeds.feedburner.com/AlgoliaBlog
+  github: https://github.com/algolia
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/algolia.png
+  tags: Search,Deployment
 - slug: algorithmia
   name: Algorithmia
   description: "We are building a community around state-of-the-art algorithm development.
@@ -237,6 +254,21 @@
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   tags: Amazon Web Services,Management,Deployment,Cloud
+- slug: aws-cloudsearch
+  name: AWS CloudSearch
+  description: Amazon CloudSearch is a managed service in the AWS Cloud that makes
+    it simple and cost-effective to set up, manage, and scale a search solution for
+    your website or application. Amazon CloudSearch supports 34 languages and popular
+    search features such as highlighting, autocomplete, and geospatial search. For
+    more information, see Benefits.
+  url: https://aws.amazon.com/cloudsearch/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonCloudSearch.png
+  tags: Amazon Web Services,Search,Documents,Deployment
 - slug: aws-ec2-container-service
   name: AWS EC2 Container Service
   description: Amazon EC2 Container Service (ECS) is a highly scalable, high performance
@@ -381,6 +413,19 @@
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   tags: Microsoft,Resources,Links,Deployment
+- slug: azure-search
+  name: Azure Search
+  description: Azure Search is a fully-managed service for adding sophisticated search
+    capabilities to web and mobile applications without the typical complexities of
+    full-text search.
+  url: https://azure.microsoft.com/en-us/services/search/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
+  tags: Search,Microsoft,Deployment
 - slug: binaryops.io
   name: BinaryOps.io
   description: We want to help you get to market faster by providing the services
@@ -426,6 +471,20 @@
   github: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ca_logo.jpg
   tags: Deployment,Gateway
+- slug: ""
+  name: Circle CI
+  description: "CircleCI\u2019s continuous integration and delivery platform helps
+    software teams rapidly release code with confidence by automating the build, test,
+    and deploy process. CircleCI offers a modern software development platform that
+    lets teams ramp quickly, scale easily, and build confidently every day."
+  url: https://circleci.com/
+  shorturl: ""
+  twitter: https://twitter.com/circleci
+  blog: https://circleci.com/blog/
+  blogrss: https://circleci.com/blog/feed.xml
+  github: https://github.com/circleci
+  image: https://s3.amazonaws.com/kinlane-productions/circleci/circleci-logo-stacked-fb.png
+  tags: Orchestration,Deployment
 - slug: ckan
   name: CKAN
   description: CKAN is a powerful data management system that makes data accessible
@@ -472,6 +531,21 @@
   github: https://github.com/deployd
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/deployd-logo.jpeg
   tags: Deployment,Management,Open Source
+- slug: devblog.accela.com
+  name: Accela
+  description: "Accela is the leading provider of civic engagement solutions for government.
+    The Accela Civic Platform includes APIs and mobile apps and is designed to enable
+    and improve core processes for city, county, state and federal governments. Accela\u2019s
+    solutions uniquely address the diverse needs of agencies, citizens and businesses
+    by enhancing workflow and making publicly available information more accessible."
+  url: https://www.accela.com
+  shorturl: ""
+  twitter: https://twitter.com/AccelaSoftware
+  blog: https://www.accela.com/company/blog
+  blogrss: https://www.accela.com/
+  github: https://github.com/Accela-Inc
+  image: https://s3.amazonaws.com/kinlane-productions/accela/accella-logo.jpg
+  tags: Data,Deployment, City Government
 - slug: diffbot
   name: Diffbot
   description: '&lt;p&gt;Diffbot provides a set of APIs that enable developers to
@@ -767,18 +841,6 @@
   github: https://github.com/jexia-inc
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/jexia-logo.png
   tags: Deployment,Management,Cloud
-- slug: laravel
-  name: Laravel
-  description: Laravel is a free, open source PHP web application framework, designed
-    for the development of model&ndash;view&ndash;controller (MVC) web applications.
-  url: http://laravel.com/
-  shorturl: ""
-  twitter: https://twitter.com/laravelphp
-  blog: https://laravel-news.com/blog
-  blogrss: https://feed.laravel-news.com/
-  github: https://github.com/laravel
-  image: https://s3.amazonaws.com/kinlane-productions/laravel/laravel.png
-  tags: Deployment,Framework
 - slug: magicstack.io
   name: kloudbit
   description: REST Backend as a Service. Build robust applications without the hassle
@@ -791,6 +853,18 @@
   github: https://github.com/MagicStack
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/magicstack-io.png
   tags: Deployment,Serverless
+- slug: laravel
+  name: Laravel
+  description: Laravel is a free, open source PHP web application framework, designed
+    for the development of model&ndash;view&ndash;controller (MVC) web applications.
+  url: http://laravel.com/
+  shorturl: ""
+  twitter: https://twitter.com/laravelphp
+  blog: https://laravel-news.com/blog
+  blogrss: https://feed.laravel-news.com/
+  github: https://github.com/laravel
+  image: https://s3.amazonaws.com/kinlane-productions/laravel/laravel.png
+  tags: Deployment,Framework
 - slug: magnetic
   name: Magnetic
   description: 'We started Magnetic.io because we were fed up with the way online
@@ -852,6 +926,20 @@
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-azure-logo.png
   tags: Management,Deployment,Compute,Database,Serverless,Portal,Command Line Interface,DNS,DNS
     Cloud,Reliability,Service Level Agreement,Cloud
+- slug: ""
+  name: Mobapi
+  description: Turn any data source into custom APIs. We help companies entering the
+    API economy, exposing data to partners and customers without writing a single
+    line of code. We offer an easy-to-use solution to help you interconnect, aggregate
+    or share your data through bespoke APIs.
+  url: https://www.mobapi.com/
+  shorturl: ""
+  twitter: https://twitter.com/mobapi_app
+  blog: https://www.mobapi.com/blog/
+  blogrss: ""
+  github: https://github.com/mobapi
+  image: https://s3.amazonaws.com/kinlane-productions/mobapi/mobapi-logo.png
+  tags: Deployment
 - slug: nginx-web-server
   name: nginx web server
   description: NGINX is the secret heart of the modern web, powering 1 in 3 of the
@@ -933,6 +1021,21 @@
   github: https://github.com/openrasta
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenRasta-Logo.png
   tags: Framework,.NET,Deployment
+- slug: openrasta
+  name: OpenRasta
+  description: OpenRasta is an open-source .NET framework for building everything
+    web, from web sites to RESTful APIs. Written from the ground-up with testing in
+    mind, OpenRasta removes the faff from your code and lets you concentrate on writing
+    clean, beautiful code. Proven in the real world, OpenRasta is the perfect choice
+    for building scalable, high-performance, reliable web services.
+  url: http://openrasta.org/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: https://github.com/openrasta
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenRasta-Logo.png
+  tags: Framework,.NET,Deployment
 - slug: opsgen
   name: OpsGen
   description: There's a better way to build connectivity for high-value enterprise,
@@ -976,7 +1079,23 @@
   blogrss: ""
   github: https://github.com/wikimedia/restbase
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/RESTBase-Logo.png
-  tags: Deployment,Framework
+  tags: Deployment,Framework,Proxy
+- slug: restdb.io
+  name: RestDB
+  description: restdb.io is a simple and secure REST-enabled NoSQL database cloud
+    service with a kickass web-based Data Manager. Storing and retrieving important
+    data should be simple. Too many projects spend too much time and money on data
+    back-ends and APIs. With restdb.io you quickly create database back-ends for your
+    projects. Our customers use it for dynamic web content, Simple CRM, data sharing
+    and much more.
+  url: https://restdb.io/
+  shorturl: ""
+  twitter: https://twitter.com/restdbio
+  blog: https://restdb.io/blog/
+  blogrss: https://ras-blogdb.restdb.io/public/feed
+  github: https://github.com/RestDB
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restdb-io-logo.png
+  tags: Deployment,Database
 - slug: restlet
   name: Restlet
   description: APISpark is an &nbsp;cloud API platform that lets you create, host,
@@ -1204,7 +1323,7 @@
   blogrss: https://tyk.io/feed/
   github: https://github.com/TykTechnologies
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tyk_io_logo.png
-  tags: Management,Deployment,Gateway
+  tags: Management,Deployment,Gateway,Devices,Internet of Things
 - slug: weblab
   name: weblab
   description: Microservices at your fingertips. no provisioning or deployments required.
@@ -1282,31 +1401,124 @@
     Shot 2017-01-11 at 10.19.30 PM.png
   tags: Deployment,Real Time
 - slug: ""
-  name: Circle CI
-  description: "CircleCI\u2019s continuous integration and delivery platform helps
-    software teams rapidly release code with confidence by automating the build, test,
-    and deploy process. CircleCI offers a modern software development platform that
-    lets teams ramp quickly, scale easily, and build confidently every day."
-  url: https://circleci.com/
+  name: Google Cloud Endpoints
+  description: Develop, deploy, protect and monitor your APIs with Google Cloud Endpoints.
+    An NGINX-based proxy and distributed architecture give unparalleled performance
+    and scalability. Using an Open API Specification or one of our API frameworks,
+    Cloud Endpoints gives you the tools you need for every phase of API development
+    and provides insight with Google Cloud Monitoring, Cloud Trace, and Stackdriver
+    Logging.
+  url: https://cloud.google.com/endpoints/
   shorturl: ""
-  twitter: https://twitter.com/circleci
-  blog: https://circleci.com/blog/
-  blogrss: https://circleci.com/blog/feed.xml
-  github: https://github.com/circleci
-  image: https://s3.amazonaws.com/kinlane-productions/circleci/circleci-logo-stacked-fb.png
-  tags: Orchestration,Deployment
-- slug: ""
-  name: Mobapi
-  description: Turn any data source into custom APIs. We help companies entering the
-    API economy, exposing data to partners and customers without writing a single
-    line of code. We offer an easy-to-use solution to help you interconnect, aggregate
-    or share your data through bespoke APIs.
-  url: https://www.mobapi.com/
-  shorturl: ""
-  twitter: https://twitter.com/mobapi_app
-  blog: https://www.mobapi.com/blog/
+  twitter: ""
+  blog: ""
   blogrss: ""
-  github: https://github.com/mobapi
-  image: https://s3.amazonaws.com/kinlane-productions/mobapi/mobapi-logo.png
-  tags: Deployment
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/google-cloud/google-cloud-endpoints-icon.png
+  tags: Deployment,Cloud
+- slug: ""
+  name: restSQL
+  description: 'restSQL is an open-source, ultra-lightweight data access layer for
+    HTTP clients. restSQL is a persistence framework or engine in the middle tier
+    of a classic three tier architecture: client, application server and database.
+    It may also be embedded in any middle-tier as a Java library.'
+  url: http://restsql.org/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/restsql/rest-sql-logo.png
+  tags: Deployment,Database
+- slug: ""
+  name: RestifyDB
+  description: restifydb allows your clients to consume your data. The proven best
+    way to do this is via RESTful web services. This will allow them to easily create
+    awesome applications without struggling to gather, organize and store data.
+  url: http://restifydb.com/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/restify/restify-db-logo.png
+  tags: Deployment,Database
+- slug: ""
+  name: GSX2JSON
+  description: One useful feature of Google Spreadsheets is the ability to access
+    the data as JSON by using a particular feed URL. However, this is a bit fiddly
+    to do, and the resulting JSON is pretty unreadable, with usable data buried deep
+    inside objects.
+  url: http://gsx2json.com/
+  shorturl: ""
+  twitter: ""
+  blog: ""
+  blogrss: ""
+  github: ""
+  image: https://s3.amazonaws.com/kinlane-productions/gsx2json/gsx2json-logo.png
+  tags: Deployment,Database
+- slug: ""
+  name: LucidWorks
+  description: Lucidworks is a San Francisco, California-based enterprise search technology
+    company offering an application development platform, commercial support, consulting,
+    training and value-add software for open source Apache Lucene and Apache Solr.
+  url: https://lucidworks.com
+  shorturl: ""
+  twitter: https://twitter.com/Lucidworks
+  blog: https://lucidworks.com/blog/
+  blogrss: ""
+  github: https://github.com/lucidworks
+  image: https://s3.amazonaws.com/kinlane-productions/lucidworks/lucidworks.png
+  tags: Deployment,Search
+- slug: ""
+  name: Claudia.js
+  description: Claudia makes it easy to deploy Node.js projects to AWS Lambda and
+    API Gateway. It automates all the error-prone deployment and configuration tasks,
+    and sets everything up the way JavaScript developers expect out of the box.
+  url: https://claudiajs.com/
+  shorturl: ""
+  twitter: https://twitter.com/intent/follow?screen_name=gojkoadzic
+  blog: ""
+  blogrss: https://claudiajs.com/feed.xml
+  github: https://github.com/claudiajs/claudia
+  image: https://s3.amazonaws.com/kinlane-productions/claudia-js/claudia-js.png
+  tags: Deployment,Microservices,Serverless
+- slug: ""
+  name: Data.World
+  description: Discover and share cool data, connect with interesting people, and
+    work together to solve problems faster.
+  url: https://data.world/
+  shorturl: ""
+  twitter: https://twitter.com/datadotworld
+  blog: https://blog.data.world/
+  blogrss: https://blog.data.world/feed
+  github: https://github.com/datadotworld
+  image: https://s3.amazonaws.com/kinlane-productions/data-world/data-world.png
+  tags: Deployment,Data
+- slug: ""
+  name: OpenDataSoft
+  description: OpenDataSoft turns any dataset into easy-to-understand interactive
+    data visualizations. Your data will instantly make sense to your end-users with
+    tables, graphs, charts, maps, and pictures.
+  url: https://www.opendatasoft.com/
+  shorturl: ""
+  twitter: https://twitter.com/opendatasoft
+  blog: https://www.opendatasoft.com/blog-en/
+  blogrss: https://www.opendatasoft.com/feed/
+  github: https://github.com/opendatasoft
+  image: https://s3.amazonaws.com/kinlane-productions/opendatasoft/opendatasoft-open-data-api-solution-logo.png
+  tags: Deployment,Data
+- slug: ""
+  name: DKAN
+  description: DKAN is an open source open data platform with a full suite of cataloging,
+    publishing and visualization features that allows organizations to easily share
+    data with the public.
+  url: http://getdkan.com/
+  shorturl: ""
+  twitter: ""
+  blog: http://getdkan.com/blog/
+  blogrss: ""
+  github: https://github.com/NuCivic/dkan
+  image: https://s3.amazonaws.com/kinlane-productions/dkan/dkan-avatar-blue.png
+  tags: Deployment,Data
 ...
