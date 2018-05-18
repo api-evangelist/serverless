@@ -77,16 +77,16 @@
   url: https://dzone.com/articles/serverless-delivery-architecture-part-1
   domain: dzone.com
   image: ""
-- curated_id: ca8ed2a1beaa195d2603291fb75ac350
-  item_date: "2016-03-21 00:00:00"
-  title: Sketching a Slack Slash Parliamentary Auto-Responder Using AWS Lambda Functions
-  url: http://blog.ouseful.info/2016/03/21/sketching-a-slack-slash-parliamentary-auto-responder-using-aws-lambda-functions/
-  domain: blog.ouseful.info
-  image: ""
 - curated_id: 652dc911150c9d09819f83328fe4659b
   item_date: "2016-03-21 00:00:00"
   title: Implementing Slash Commands Using Amazon Lambda Functions ? Writing Tests
   url: http://blog.ouseful.info/2016/03/21/implementing-slash-commands-using-amazon-lambda-functions-writing-tests/
+  domain: blog.ouseful.info
+  image: ""
+- curated_id: ca8ed2a1beaa195d2603291fb75ac350
+  item_date: "2016-03-21 00:00:00"
+  title: Sketching a Slack Slash Parliamentary Auto-Responder Using AWS Lambda Functions
+  url: http://blog.ouseful.info/2016/03/21/sketching-a-slack-slash-parliamentary-auto-responder-using-aws-lambda-functions/
   domain: blog.ouseful.info
   image: ""
 - curated_id: 3376c81317983e6a93cf0c1823393a8e
@@ -165,17 +165,17 @@
   url: http://betalist.com/startups/magicstack
   domain: betalist.com
   image: ""
-- curated_id: 07bbd3909d0340f01ff3c0d4de84a8a1
-  item_date: "2016-04-27 00:00:00"
-  title: Introducing Lambda Support on Iron.io
-  url: https://dzone.com/articles/introducing-lambda-support-on-ironio
-  domain: dzone.com
-  image: ""
 - curated_id: acfc882bbc6f5fb0120af05d362f1244
   item_date: "2016-04-27 00:00:00"
   title: 'DevOps gold nuggets: scaling down gracefully with AWS Lambda and HAProxy'
   url: https://www.contentful.com/blog/2016/04/27/aws-lambda-haproxy-scaling-down/
   domain: www.contentful.com
+  image: ""
+- curated_id: 07bbd3909d0340f01ff3c0d4de84a8a1
+  item_date: "2016-04-27 00:00:00"
+  title: Introducing Lambda Support on Iron.io
+  url: https://dzone.com/articles/introducing-lambda-support-on-ironio
+  domain: dzone.com
   image: ""
 - curated_id: f0f0d7c3375a137251f55aa851140c88
   item_date: "2016-05-02 00:00:00"
@@ -207,16 +207,16 @@
   url: https://dzone.com/articles/integrate-sqs-and-lambda-serverless-architecture-f
   domain: dzone.com
   image: ""
+- curated_id: 001052313c98c18e6ac0ed37f12ddf30
+  item_date: "2016-06-17 00:00:00"
+  title: 'The next big thing: Serverless'
+  url: http://jexia.com/serverless-the-next-big-thing/
+  domain: jexia.com
+  image: ""
 - curated_id: 65adcfe8a2f9c8e99f91a299f0bfaf6d
   item_date: "2016-06-17 00:00:00"
   title: 'Serverless Microservices (and Minimal Ops): Current Limitations of AWS Lambda'
   url: https://dzone.com/articles/serverless-microservices-and-minimal-ops-current-l
-  domain: dzone.com
-  image: ""
-- curated_id: 85bb72db593b09abd77d07d6ad31f65b
-  item_date: "2016-06-17 00:00:00"
-  title: What Is Serverless?
-  url: https://dzone.com/articles/what-is-serverless
   domain: dzone.com
   image: ""
 - curated_id: f91572a6b144f6da9720c96d5e326ec2
@@ -225,11 +225,11 @@
   url: https://dzone.com/articles/serverless-data-sync-in-web-apps-with-bit-torrent
   domain: dzone.com
   image: ""
-- curated_id: 001052313c98c18e6ac0ed37f12ddf30
+- curated_id: 85bb72db593b09abd77d07d6ad31f65b
   item_date: "2016-06-17 00:00:00"
-  title: 'The next big thing: Serverless'
-  url: http://jexia.com/serverless-the-next-big-thing/
-  domain: jexia.com
+  title: What Is Serverless?
+  url: https://dzone.com/articles/what-is-serverless
+  domain: dzone.com
   image: ""
 - curated_id: 60959f01a09acc1a3ef4b592612fede0
   item_date: "2016-06-20 00:00:00"
@@ -353,17 +353,17 @@
   url: https://www.digitalgov.gov/2016/08/24/the-data-briefing-microservices-and-serverless-apps-a-new-direction-for-federal-government-mobile-apps/
   domain: www.digitalgov.gov
   image: ""
-- curated_id: 17689f8072140602eb7b9270c39ae946
-  item_date: "2016-08-29 00:00:00"
-  title: Serverless Computing and Microservices With Iron.io and Mesosphere
-  url: https://dzone.com/articles/serverless-computing-and-microservices-in-modern-d
-  domain: dzone.com
-  image: ""
 - curated_id: 81e5e1fb60a46653a44dfd36ea99d274
   item_date: "2016-08-29 00:00:00"
   title: Serverless Elasticsearch Curator on AWS Lambda
   url: https://www.elastic.co/blog/serverless-elasticsearch-curator-on-aws-lambda
   domain: www.elastic.co
+  image: ""
+- curated_id: 17689f8072140602eb7b9270c39ae946
+  item_date: "2016-08-29 00:00:00"
+  title: Serverless Computing and Microservices With Iron.io and Mesosphere
+  url: https://dzone.com/articles/serverless-computing-and-microservices-in-modern-d
+  domain: dzone.com
   image: ""
 - curated_id: e892ed0fc8c3eedca651c85ed1293979
   item_date: "2016-08-29 11:32:04"
@@ -383,17 +383,17 @@
   url: https://medium.com/@tjholowaychuk/dos-and-don-ts-of-aws-lambda-7dfcab7ad115#.xc5x68qkv
   domain: medium.com
   image: ""
-- curated_id: b9fc6cefc478fc974753270b94e0ee65
-  item_date: "2016-09-14 00:00:00"
-  title: Monitoring Serverless Architectures, Microservices and Containerized Applications
-  url: https://www.opsclarity.com/monitoring-serverless-architectures-microservices-containerized-applications/
-  domain: www.opsclarity.com
-  image: ""
 - curated_id: 3a940ddfa495939e0028960e8d2b80fc
   item_date: "2016-09-14 00:00:00"
   title: Build a Serverless Slack Bot with Webtask.io
   url: https://auth0.com/blog/build-a-serverless-slack-bot-with-webtask/
   domain: auth0.com
+  image: ""
+- curated_id: b9fc6cefc478fc974753270b94e0ee65
+  item_date: "2016-09-14 00:00:00"
+  title: Monitoring Serverless Architectures, Microservices and Containerized Applications
+  url: https://www.opsclarity.com/monitoring-serverless-architectures-microservices-containerized-applications/
+  domain: www.opsclarity.com
   image: ""
 - curated_id: 347b1cf8ab258a28897b386a906ab5f5
   item_date: "2016-09-19 00:00:00"
@@ -517,29 +517,29 @@
   url: https://aws.amazon.com/blogs/aws/aws-lambda-a-look-back-at-2016/
   domain: aws.amazon.com
   image: ""
-- curated_id: 3f241b56b9042c42f1d9011ba148369c
-  item_date: "2017-01-19 00:00:00"
-  title: Automatic SlideShare Text Summarization
-  url: http://blog.algorithmia.com/automatic-slideshare-text-summarization/
-  domain: blog.algorithmia.com
-  image: ""
 - curated_id: 21a820edced7cf9cb4a24b80b733465b
   item_date: "2017-01-19 00:00:00"
   title: Ten Attributes of Serverless Computing Platforms
   url: http://thenewstack.io/ten-attributes-serverless-computing-platforms/
   domain: thenewstack.io
   image: ""
-- curated_id: dbb4be50ab43e5a64b21cbe3d522a2e0
-  item_date: "2017-01-30 00:00:00"
-  title: Writing a cron job microservice with Serverless and AWS Lambda
-  url: https://blog.readme.io/writing-a-cron-job-microservice-with-serverless-and-aws-lambda/
-  domain: blog.readme.io
+- curated_id: 3f241b56b9042c42f1d9011ba148369c
+  item_date: "2017-01-19 00:00:00"
+  title: Automatic SlideShare Text Summarization
+  url: http://blog.algorithmia.com/automatic-slideshare-text-summarization/
+  domain: blog.algorithmia.com
   image: ""
 - curated_id: 24dc09b214d35b2dc404cefffc6d9601
   item_date: "2017-01-30 00:00:00"
   title: Fission Serverless Functions as a Service for Kubernetes
   url: http://blog.kubernetes.io/2017/01/fission-serverless-functions-as-service-for-kubernetes.html
   domain: blog.kubernetes.io
+  image: ""
+- curated_id: dbb4be50ab43e5a64b21cbe3d522a2e0
+  item_date: "2017-01-30 00:00:00"
+  title: Writing a cron job microservice with Serverless and AWS Lambda
+  url: https://blog.readme.io/writing-a-cron-job-microservice-with-serverless-and-aws-lambda/
+  domain: blog.readme.io
   image: ""
 - curated_id: 95118329341820fadeb72936fa5f6035
   item_date: "2017-01-31 15:31:01"
@@ -565,17 +565,17 @@
   url: https://dzone.com/articles/understanding-serverless-cloud-and-clear
   domain: dzone.com
   image: ""
-- curated_id: 2cb44c001e211a4de1352ebdbcb79bc8
-  item_date: "2017-02-14 00:00:00"
-  title: Meet Backands New Serverless SDK
-  url: http://blog.backand.com/meet-backands-new-serverless-sdk/
-  domain: blog.backand.com
-  image: ""
 - curated_id: 4c25a058aac1f58688d6a017af21c4ef
   item_date: "2017-02-14 00:00:00"
   title: The Freedom of AWS Lambda
   url: https://dzone.com/articles/the-freedom-of-aws-lambda
   domain: dzone.com
+  image: ""
+- curated_id: 2cb44c001e211a4de1352ebdbcb79bc8
+  item_date: "2017-02-14 00:00:00"
+  title: Meet Backands New Serverless SDK
+  url: http://blog.backand.com/meet-backands-new-serverless-sdk/
+  domain: blog.backand.com
   image: ""
 - curated_id: 420cdf8df98b3276dac6d4dc5a141f92
   item_date: "2017-02-15 00:00:00"
@@ -601,11 +601,11 @@
   url: https://auth0.com/blog/serverless-angular-app-with-persistence-and-security/
   domain: auth0.com
   image: ""
-- curated_id: aff05342d9564543c2d3efcbff34aee5
+- curated_id: e9812c52120c62b964b86b1fd5495c9f
   item_date: "2017-02-24 00:00:00"
-  title: write serverless functions using aws lambda and c#
-  url: https://www.codeproject.com/Articles/1172832/write-serverless-functions-using-aws-lambda-and-cs
-  domain: www.codeproject.com
+  title: Serverless REST API with Angular, Persistence and Security
+  url: https://dzone.com/articles/serverless-rest-api-with-angular-persistence-and-s
+  domain: dzone.com
   image: ""
 - curated_id: 48506e90b1570dd44053818af51b8a2c
   item_date: "2017-02-24 00:00:00"
@@ -613,11 +613,11 @@
   url: https://backendless.com/integrate-aws-lambda-into-your-backendless-apps/
   domain: backendless.com
   image: ""
-- curated_id: e9812c52120c62b964b86b1fd5495c9f
+- curated_id: aff05342d9564543c2d3efcbff34aee5
   item_date: "2017-02-24 00:00:00"
-  title: Serverless REST API with Angular, Persistence and Security
-  url: https://dzone.com/articles/serverless-rest-api-with-angular-persistence-and-s
-  domain: dzone.com
+  title: write serverless functions using aws lambda and c#
+  url: https://www.codeproject.com/Articles/1172832/write-serverless-functions-using-aws-lambda-and-cs
+  domain: www.codeproject.com
   image: ""
 - curated_id: ceca0923047b870bb132d478a5d702ec
   item_date: "2017-02-24 03:30:03"
@@ -631,16 +631,16 @@
   url: http://blog.backand.com/upgrade-new-serverless-sdk/
   domain: blog.backand.com
   image: ""
-- curated_id: 9bebc8e90c7d2c9fdd63901385172810
-  item_date: "2017-03-02 00:00:00"
-  title: Serverless Swift on OpenWhisk
-  url: https://dzone.com/articles/serverless-swift-on-openwhisk
-  domain: dzone.com
-  image: ""
 - curated_id: 829edc5d1fb99683af9af9252b4d4f0f
   item_date: "2017-03-02 00:00:00"
   title: Serverless Architectures on AWS
   url: https://dzone.com/articles/serverless-architectures-on-aws-1
+  domain: dzone.com
+  image: ""
+- curated_id: 9bebc8e90c7d2c9fdd63901385172810
+  item_date: "2017-03-02 00:00:00"
+  title: Serverless Swift on OpenWhisk
+  url: https://dzone.com/articles/serverless-swift-on-openwhisk
   domain: dzone.com
   image: ""
 - curated_id: 77056f85e2634e9513df56c491503dda
@@ -655,12 +655,6 @@
   url: https://dzone.com/articles/adapting-serverless-architecture
   domain: dzone.com
   image: ""
-- curated_id: 60f7ea3afe482008e0366643c23195eb
-  item_date: "2017-03-10 00:00:00"
-  title: 'Serverless Computing: Dont Throw Your Servers Away Just Yet'
-  url: https://www.channele2e.com/2017/03/10/serverless-computing-dont-throw-servers-away-just-yet/
-  domain: www.channele2e.com
-  image: ""
 - curated_id: 389adb258d79337bac1ef811c96eec12
   item_date: "2017-03-10 00:00:00"
   title: Continuously Encrypt Amazon Redshift Loads with S3, KMS, and Lambda
@@ -672,6 +666,12 @@
   title: Using Serverless Azure Functions with Auth0 and Google APIs
   url: https://auth0.com/blog/using-serverless-azure-functions-with-auth0-and-google-apis/
   domain: auth0.com
+  image: ""
+- curated_id: 60f7ea3afe482008e0366643c23195eb
+  item_date: "2017-03-10 00:00:00"
+  title: 'Serverless Computing: Dont Throw Your Servers Away Just Yet'
+  url: https://www.channele2e.com/2017/03/10/serverless-computing-dont-throw-servers-away-just-yet/
+  domain: www.channele2e.com
   image: ""
 - curated_id: d9e791067486d108247f0c76897c49db
   item_date: "2017-03-15 00:00:00"
@@ -691,12 +691,6 @@
   url: https://aws.amazon.com/blogs/compute/automating-aws-lambda-function-error-handling-with-aws-step-functions/
   domain: aws.amazon.com
   image: ""
-- curated_id: f2dc566bad5d2b827133276bacf1f1b5
-  item_date: "2017-03-21 00:00:00"
-  title: Build Lambda Expressions Dynamically
-  url: https://www.codeproject.com/Articles/1079028/Build-Lambda-Expressions-Dynamically
-  domain: www.codeproject.com
-  image: ""
 - curated_id: 7a66e9e02b89804380dc24c5526d5662
   item_date: "2017-03-21 00:00:00"
   title: Build a Serverless Slack Bot in 9 Minutes with Node.js and StdLib
@@ -709,11 +703,11 @@
   url: https://dzone.com/articles/aws-serverless-lambda-scheduled-events-to-store-tw
   domain: dzone.com
   image: ""
-- curated_id: 967590c353012f71039c00dc4ba1380a
-  item_date: "2017-03-23 00:00:00"
-  title: What to Look for When Choosing a Serverless Architecture
-  url: http://news.sys-con.com/node/4040820
-  domain: news.sys-con.com
+- curated_id: f2dc566bad5d2b827133276bacf1f1b5
+  item_date: "2017-03-21 00:00:00"
+  title: Build Lambda Expressions Dynamically
+  url: https://www.codeproject.com/Articles/1079028/Build-Lambda-Expressions-Dynamically
+  domain: www.codeproject.com
   image: ""
 - curated_id: 2019db0e7bc133fed29d3835be6aba06
   item_date: "2017-03-23 00:00:00"
@@ -726,6 +720,12 @@
   title: IBM Advances OpenWhisk Serverless Computing Initiative
   url: http://containerjournal.com/2017/03/24/ibm-advances-openwhisk-serverless-computing-initiative/
   domain: containerjournal.com
+  image: ""
+- curated_id: 967590c353012f71039c00dc4ba1380a
+  item_date: "2017-03-23 00:00:00"
+  title: What to Look for When Choosing a Serverless Architecture
+  url: http://news.sys-con.com/node/4040820
+  domain: news.sys-con.com
   image: ""
 - curated_id: faa54a91bfb4e461618bdbbbbb7233d5
   item_date: "2017-03-23 20:00:46"
@@ -796,16 +796,16 @@
   url: https://aws.amazon.com/blogs/aws/announcing-the-aws-chatbot-challenge-create-conversational-intelligent-chatbots-using-amazon-lex-and-aws-lambda/
   domain: aws.amazon.com
   image: ""
-- curated_id: 9d1b7eb0ffae370c334a52dc32845223
-  item_date: "2017-04-22 00:00:00"
-  title: Serverless Architecture (Part 1)
-  url: https://dzone.com/articles/serverless-architecture-part-1
-  domain: dzone.com
-  image: ""
 - curated_id: e6edb9a921629a4230719073e2dbb33f
   item_date: "2017-04-22 00:00:00"
   title: Switching OpenWhisk Environments
   url: https://dzone.com/articles/switching-openwhisk-environments
+  domain: dzone.com
+  image: ""
+- curated_id: 9d1b7eb0ffae370c334a52dc32845223
+  item_date: "2017-04-22 00:00:00"
+  title: Serverless Architecture (Part 1)
+  url: https://dzone.com/articles/serverless-architecture-part-1
   domain: dzone.com
   image: ""
 - curated_id: ee8899be5ab1ee3490106eacfacb0268
@@ -4417,5 +4417,980 @@
   title: Where to Find Security Holes in Serverless Architecture
   url: https://www.darkreading.com/cloud/where-to-find-security-holes-in-serverless-architecture/d/d-id/1330842
   domain: www.darkreading.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16111a16320:15c3a6:ce0f9556
+  item_date: "2018-01-19 13:40:43"
+  title: Serverless Golang API with AWS Lambda
+  url: https://medium.com/p/34e442385a6a
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_16112ce8b7a:5c9109b:7157a206
+  item_date: "2018-01-19 22:01:34"
+  title: 'Webhooks vs. Serverless: I Like Webhooks'
+  url: https://dzone.com/articles/1942349
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1611321edfb:16e0b5a:fe3e7618
+  item_date: "2018-01-20 02:34:04"
+  title: Kubernetes for Serverless Applications
+  url: https://medium.com/p/2e1c8a24e0e3
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1611a031ad1:1cb402:ce0f9556
+  item_date: "2018-01-21 10:37:44"
+  title: From servers to functions, the serverless story
+  url: https://medium.com/p/2d9182e7ffec
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1611b565230:1f224bb:592649b9
+  item_date: "2018-01-21 16:48:15"
+  title: You need to use structured logging with AWS Lambda
+  url: https://medium.com/p/f3af9586d6a8
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_161765eee01:c072d1:9e976e77
+  item_date: "2018-02-01 07:34:44"
+  title: "Container people, let\u2019s talk about serverless"
+  url: https://medium.com/p/e6ecb5c437cf
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16158117954:137168:ce0f9556
+  item_date: "2018-02-02 11:49:51"
+  title: "Serverless \u2014 Beyond the over simplistic todo apps into the world of
+    reality (part 1)"
+  url: https://medium.com/p/e75b4a5e59e6
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1615dc9ed09:1941d43:9d76d584
+  item_date: "2018-02-03 14:29:28"
+  title: Are Serverless Applications Right For Your Business?
+  url: https://medium.com/p/5c695caec5bf
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16166b3042f:22aaf8e:fe3e7618
+  item_date: "2018-02-05 08:01:01"
+  title: Performance debugging for serverless functions using the IBM Cloud Shell
+  url: https://medium.com/p/ceed43e07b5e
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1616cd80279:333fa:c8ea36f9
+  item_date: "2018-02-06 12:34:46"
+  title: 'Serverless Framework: Defining Per'
+  url: https://medium.com/p/c678fa09f46d
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_161766878fa:c2713d:e66afc8b
+  item_date: "2018-02-06 17:14:26"
+  title: Daily DynamoDB Backups With Serverless
+  url: https://medium.com/p/ee625643254c
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1617000c619:2cf51:c8ea36f9
+  item_date: "2018-02-07 03:22:32"
+  title: 'Slappbooks: Accounting Application on a Serverless Architecture'
+  url: https://medium.com/p/ea8a9ce3acfe
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16170c635d8:437fff:e66afc8b
+  item_date: "2018-02-07 06:28:38"
+  title: AWS Step Functions. How to process arrays
+  url: https://medium.com/p/11224fd643f6
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16170c635d8:438000:e66afc8b
+  item_date: "2018-02-07 06:58:10"
+  title: Announcing Serverless DevRel Services
+  url: https://medium.com/p/f2a64e159ffd
+  domain: medium.com
+  image: ""
+- curated_id: +QuXNY32CQYzE16SQ2izcWYcIemLFvQqdDmj8F09ZZM=_161775ebd95:45cd8a5:7157a206
+  item_date: "2018-02-08 00:00:00"
+  title: Serverless Health Status Dashboard
+  url: https://www.stackery.io/blog/serverless-health-status-dashboards
+  domain: www.stackery.io
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16174b53b63:940b8:c8ea36f9
+  item_date: "2018-02-08 01:18:07"
+  title: Serverless Application for Anomaly Detection Using Sigma
+  url: https://medium.com/p/9f8dc292fc9d
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16175665ec8:a3729:c8ea36f9
+  item_date: "2018-02-08 04:31:36"
+  title: Simple authentication service with AWS Lambda
+  url: https://medium.com/p/63c9c20da696
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16176f3af45:d0684c:e66afc8b
+  item_date: "2018-02-08 11:45:35"
+  title: Introduction to Google Cloud Functions!
+  url: https://medium.com/p/8029b072fa21
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_1617721e342:46de9b9:541f3c40
+  item_date: "2018-02-08 12:01:01"
+  title: Lambda for Asynchronous Message Processing Through SQS
+  url: https://dzone.com/articles/2031127
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16177b8f271:df571:c8ea36f9
+  item_date: "2018-02-08 15:21:02"
+  title: The Curse of Dead Lambda Functions
+  url: https://medium.com/p/228bf812c10a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1617b3c5357:122b97:c8ea36f9
+  item_date: "2018-02-09 07:43:23"
+  title: I disagree with your article that scaling is better with single
+  url: https://medium.com/p/3a18850834fc
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1617b80b06c:12f2f58:9e976e77
+  item_date: "2018-02-09 08:58:02"
+  title: The State of Operations in Serverless
+  url: https://medium.com/p/d11a90630b87
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1617ba2cb56:12e0a0:c8ea36f9
+  item_date: "2018-02-09 09:35:20"
+  title: Go Serverless with Firebase
+  url: https://medium.com/p/5348dedb70e9
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1617bcba0f5:1365bc6:9e976e77
+  item_date: "2018-02-09 10:19:56"
+  title: Serverless CQRS in Azure
+  url: https://medium.com/p/e0f2c423f071
+  domain: medium.com
+  image: ""
+- curated_id: ZQTLjViBmHaIIqn2rojMd1cDp5whcNyr6F3eheqPe98=_1617c361245:4d91c3e:7157a206
+  item_date: "2018-02-09 11:59:06"
+  title: APIs deployment on serverless frameworks catching on
+  url: http://searchmicroservices.techtarget.com/blog/Microservices-Matters/APIs-deployment-on-serverless-frameworks-catching-on
+  domain: searchmicroservices.techtarget.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1618a03d6de:48c68a:86e37f75
+  item_date: "2018-02-12 04:36:01"
+  title: 'Serverless App: AWS CloudTrail Log Analytics using Amazon Elasticsearch
+    Service'
+  url: https://medium.com/p/76ed8dfa064a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16190975ce0:dfdbf8:86e37f75
+  item_date: "2018-02-13 11:14:52"
+  title: How to Extend the Fn Project with new Functionality
+  url: https://medium.com/p/9e174f665469
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16190c98770:22ed78:ceb70d89
+  item_date: "2018-02-13 12:09:39"
+  title: 'Serverless, AWS and CI: my new simple personal website'
+  url: https://medium.com/p/fd67ca147c9a
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_16191189cd7:6a5e600:7157a206
+  item_date: "2018-02-13 13:01:04"
+  title: Revolutionizing Application Development Using Serverless Architectures
+  url: https://dzone.com/articles/2036408
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16193369b1b:1a8a61:e66afc8b
+  item_date: "2018-02-13 23:28:03"
+  title: How we do Serverless Big Data ETL/OLAP Queries
+  url: https://medium.com/p/15979a71574
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_161946bfef5:6f54cfc:7157a206
+  item_date: "2018-02-14 05:01:03"
+  title: How to Easily Write Your First Serverless Application
+  url: https://dzone.com/articles/2040701
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16195699794:4cefcd:9e976e77
+  item_date: "2018-02-14 09:42:58"
+  title: "Serverless Cloud Native Landscape: New from Redpoint Ventures and the Cloud
+    Native Computing\u2026"
+  url: https://medium.com/p/181711d885f7
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1619610a410:5d5e39:9e976e77
+  item_date: "2018-02-14 12:44:55"
+  title: AWS Server
+  url: https://medium.com/p/482021964bb5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161976b9624:782ea:c8ea36f9
+  item_date: "2018-02-14 19:04:23"
+  title: Building Single Page App with Azure Functions and improving cold start time
+  url: https://medium.com/p/79a0faec9913
+  domain: medium.com
+  image: ""
+- curated_id: UjG+CeLaqj27hMBI/WjhTGNNUNvP04IJdUFt2zsPBtQ=_161987bd787:7771935:541f3c40
+  item_date: "2018-02-15 00:00:00"
+  title: Serverless GraphQL Architecture With Graphcool
+  url: https://nordicapis.com/?p=7685
+  domain: nordicapis.com
+  image: ""
+- curated_id: +QuXNY32CQYzE16SQ2izcWYcIemLFvQqdDmj8F09ZZM=_1619ae0fd49:79df62d:7157a206
+  item_date: "2018-02-15 00:00:00"
+  title: Building Serverless State Machines
+  url: https://www.stackery.io/blog/serverless-state-machines
+  domain: www.stackery.io
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161999d87fa:a1de49:9e976e77
+  item_date: "2018-02-15 05:18:11"
+  title: "Express.js and AWS Lambda \u2014 a serverless love story"
+  url: https://medium.com/p/7c77ba0eaa35
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1619a77dbd7:b8d5dc:9e976e77
+  item_date: "2018-02-15 09:16:40"
+  title: "Static Websites On AWS S3 Using Serverless Framework \u2014 Tutorial"
+  url: https://medium.com/p/a61a5c514af8
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1619c03e854:dcc95:c8ea36f9
+  item_date: "2018-02-15 16:29:14"
+  title: OpenFAAS is the one to keep an eye on here.
+  url: https://medium.com/p/a26ddf1f88e5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161a91516b7:d7c0b2:9e976e77
+  item_date: "2018-02-18 05:23:04"
+  title: Serverless architectures
+  url: https://medium.com/p/25857fd29f18
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161a9c638f4:e522da:e66afc8b
+  item_date: "2018-02-18 08:36:33"
+  title: Almost free server monitoring with AWS Lambda
+  url: https://medium.com/p/2c23d70b4f5e
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_161ada29081:9231f0d:7157a206
+  item_date: "2018-02-19 02:01:01"
+  title: Easy Database Setup the Serverless Way
+  url: https://dzone.com/articles/2061436
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161adfe10ea:12c36cd:9e976e77
+  item_date: "2018-02-19 04:16:01"
+  title: How Can Serverless Computing Benefit Your Startup?
+  url: https://medium.com/p/67503e08f76e
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161b572bae1:1b2b9a:c8ea36f9
+  item_date: "2018-02-20 01:44:00"
+  title: 'Serverless Revolution: the Good, the Bad and the Ugly'
+  url: https://medium.com/p/e76c671cb628
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_161b99fbd0f:38e183:9e976e77
+  item_date: "2018-02-20 12:54:36"
+  title: Running a scalable & reliable GraphQL endpoint with Serverless
+  url: https://medium.com/p/24c3bb5acb43
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161b8bf5454:226ba1:e66afc8b
+  item_date: "2018-02-21 06:23:19"
+  title: AWS Serverless for a global web app
+  url: https://medium.com/p/3e349b9f2ac5
+  domain: medium.com
+  image: ""
+- curated_id: YkHSjitc8H2BhHwUtfFoNoqyfwfO4rNj4K2jWs1BWP0=_161b9f85987:a5bbb58:7157a206
+  item_date: "2018-02-21 12:05:16"
+  title: Datadog is in the AWS Serverless Application Repository
+  url: https://www.datadoghq.com/blog/datadog-in-aws-serverless/
+  domain: www.datadoghq.com
+  image: ""
+- curated_id: p9l1QRJSWsBdfQhLvEqI6rdgjdJrOWvtCS0GvuF9J1Q=_161ba01f445:a726120:3c0bb656
+  item_date: "2018-02-21 12:14:02"
+  title: New Relic Joins the AWS Serverless Application Repository
+  url: http://blog.newrelic.com/?p=41571
+  domain: blog.newrelic.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161ba044fc3:46cdd:c8ea36f9
+  item_date: "2018-02-21 12:18:18"
+  title: "The AWS Serverless Application Repository Launches \u2014 with an IOpipe
+    app!"
+  url: https://medium.com/p/dc34a12ebb00
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_16239c42b6f:ebf1ff:bdf8aaf1
+  item_date: "2018-02-21 20:52:30"
+  title: "Going Serverless with Amazon Web Services (AWS) \u2014 The Traditional Approach"
+  url: https://medium.com/p/fb45a7cc5dc2
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161c28a72d3:93a41:c8ea36f9
+  item_date: "2018-02-22 07:15:15"
+  title: Data Flows in Serverless Cloud
+  url: https://medium.com/p/f1afa899c9c5
+  domain: medium.com
+  image: ""
+- curated_id: 9QOGTVP+u4vwJNHB7SlLr9mbA0Mmqrsw3WZp2GL3orY=_161be823459:acfe445:7157a206
+  item_date: "2018-02-22 08:40:17"
+  title: Why deploying APIs on serverless frameworks spurs innovation
+  url: http://searchmicroservices.techtarget.com/feature/Why-deploying-APIs-on-serverless-frameworks-spurs-innovation
+  domain: searchmicroservices.techtarget.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_161be7ac1c5:ae4f659:3c0bb656
+  item_date: "2018-02-22 09:01:02"
+  title: 'Inside a Lambda Runtime: A Peek into the Serverless Lair'
+  url: https://dzone.com/articles/2063481
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161bea546f6:474e9:c8ea36f9
+  item_date: "2018-02-22 09:52:35"
+  title: Serverless Architecture and Web Scraping?
+  url: https://medium.com/p/d2f743f1c4ba
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161c0c6c457:73309d:e66afc8b
+  item_date: "2018-02-22 19:48:25"
+  title: 'Going Serverless: From Common LISP and CGI to AWS Lambda and API Gateway'
+  url: https://medium.com/p/9fba46c84fb8
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161c0ee2af8:75a335:e66afc8b
+  item_date: "2018-02-22 20:31:27"
+  title: Serverless application with CI/CD based on AWS and Bitbucket Pipelines
+  url: https://medium.com/p/ad1013158919
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161c4887323:c7180:c8ea36f9
+  item_date: "2018-02-23 13:18:50"
+  title: Server
+  url: https://medium.com/p/bc5a7f2e6d04
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161c6ae55a4:a7652:e66afc8b
+  item_date: "2018-02-23 23:19:26"
+  title: AWS Getting Started with API Gateway, Lambda & DynamoDB for an basic REST
+    API
+  url: https://medium.com/p/4549c374dad9
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161c8320cef:21998a:e66afc8b
+  item_date: "2018-02-24 06:22:55"
+  title: Continuous Deployment with Serverless and CircleCI
+  url: https://medium.com/p/772f990820ee
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161cd0188e0:67dbaa:9e976e77
+  item_date: "2018-02-25 04:48:02"
+  title: Building Serverless Microservices on AWS
+  url: https://medium.com/p/3959a93c2549
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_161d23dee81:c798024:7157a206
+  item_date: "2018-02-26 05:01:05"
+  title: Going Serverless with Amazon Web Services (AWS)
+  url: https://dzone.com/articles/2073756
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161d38ebfe9:ec471a:e66afc8b
+  item_date: "2018-02-26 11:20:00"
+  title: How we built chobani.com
+  url: https://medium.com/p/dd51eda59768
+  domain: medium.com
+  image: ""
+- curated_id: +QuXNY32CQYzE16SQ2izcWYcIemLFvQqdDmj8F09ZZM=_161e2ce5757:13aa349:923c4a60
+  item_date: "2018-02-28 00:00:00"
+  title: Implementing the Strangler Pattern with Serverless
+  url: https://www.stackery.io/blog/strangler-pattern-with-serverless
+  domain: www.stackery.io
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_161e351b2a3:60ff4:a077e55f
+  item_date: "2018-03-01 08:47:55"
+  title: Serverless Stack Experiences
+  url: https://medium.com/p/26aaf7bcf953
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161e4eedda8:9b5b4:76251cdd
+  item_date: "2018-03-01 20:18:32"
+  title: VMs, Containers or Serverless?
+  url: https://medium.com/p/5b9ec4c00b3
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161e523fcb4:df1b4:bdf8aaf1
+  item_date: "2018-03-01 21:16:34"
+  title: "Go + Lambda = \u26A1\uFE0F Building a Serverless Go API in 3 Hours"
+  url: https://medium.com/p/7109b33249d8
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161e53b9fac:d11d:a077e55f
+  item_date: "2018-03-01 21:42:23"
+  title: "Building Serverless API\u2019s with TypeScript and Azure Function Proxies"
+  url: https://medium.com/p/edd13d207b7b
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161f0defcb6:685293:76251cdd
+  item_date: "2018-03-04 03:56:34"
+  title: How to Build a Serverless Slack API with Django and Zappa
+  url: https://medium.com/p/4ce4e12c2a44
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161f2d1bf8f:78423:a077e55f
+  item_date: "2018-03-04 13:01:26"
+  title: OpenFaaS
+  url: https://medium.com/p/db0ebf16c202
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_161fcef987e:552950:76251cdd
+  item_date: "2018-03-05 02:17:27"
+  title: Serverless Application with Flutter & Lambda
+  url: https://medium.com/p/aa0d264fbefd
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161f68155de:b9c90:a077e55f
+  item_date: "2018-03-05 06:12:04"
+  title: Twitter Bot Using Amazon Translate
+  url: https://medium.com/p/d6279e937e8f
+  domain: medium.com
+  image: ""
+- curated_id: 3sOkcm6yz7RzahZqjgGz802Mh9gdTaNECiKVxsvA9Ss=_161fd2f83fd:3927028:923c4a60
+  item_date: "2018-03-05 07:33:46"
+  title: 'Serverless: Creating new opportunities for developers'
+  url: https://www.itproportal.com/features/serverless-creating-new-opportunities-for-developers/
+  domain: www.itproportal.com
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_161fc3c759b:37cc13d:9aea0a7d
+  item_date: "2018-03-06 08:51:03"
+  title: 'LunchBadger: Microservices, Serverless on Kubernetes'
+  url: https://thenewstack.io/?p=3981342
+  domain: thenewstack.io
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_161fc83670a:3825e0d:7c9981b6
+  item_date: "2018-03-06 10:01:40"
+  title: Improve Your AWS Lambda Development With Sigma
+  url: https://dzone.com/articles/2087620
+  domain: dzone.com
+  image: ""
+- curated_id: p9l1QRJSWsBdfQhLvEqI6rdgjdJrOWvtCS0GvuF9J1Q=_161fca55e90:3866242:7c9981b6
+  item_date: "2018-03-06 10:43:37"
+  title: "6 Priorities for Ops in a \u2018Serverless\u2019 World"
+  url: http://blog.newrelic.com/?p=41779
+  domain: blog.newrelic.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161fca2838f:4e9133:51a16d64
+  item_date: "2018-03-06 10:46:02"
+  title: A Practical Guide to Getting Started With AWS Lambda Functions Using Go
+  url: https://medium.com/p/3813abea730a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161fcabc8df:4e8d93:76251cdd
+  item_date: "2018-03-06 10:56:09"
+  title: Introduction to Serverless Applications
+  url: https://medium.com/p/3a97e52c14db
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_161fee266b8:7be66b:76251cdd
+  item_date: "2018-03-06 21:15:03"
+  title: "Going Serverless with Amazon Web Services (AWS) \u2014 The Modern Approach"
+  url: https://medium.com/p/245fa9203f47
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16200344e65:95c6a9:51a16d64
+  item_date: "2018-03-07 03:24:08"
+  title: 'Released: GoServerless'
+  url: https://medium.com/p/f6b87b6d02d2
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16206999058:124474f:51a16d64
+  item_date: "2018-03-08 09:12:27"
+  title: The world's first Instagram only, serverless ecommerce store.
+  url: https://medium.com/p/b82015ca42f5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16206fe1c5a:13a55f:a077e55f
+  item_date: "2018-03-08 11:02:16"
+  title: Prototyping Serverless Applications
+  url: https://medium.com/p/2d2a20e9c21e
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16207625463:1449ec:a077e55f
+  item_date: "2018-03-08 12:51:45"
+  title: This is why you should consider using aws
+  url: https://medium.com/p/6b3ea841f8b0
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1620ba22bc4:451e1:a077e55f
+  item_date: "2018-03-09 08:39:58"
+  title: "Azure Serverless Computing \u2014 FREE e"
+  url: https://medium.com/p/2b6bab40f91c
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16216f5515a:9329a4:76251cdd
+  item_date: "2018-03-10 16:00:00"
+  title: How to deploy Lambda function with CloudFormation?
+  url: https://medium.com/p/28681d803637
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1621a9c38a7:d75287:76251cdd
+  item_date: "2018-03-12 07:27:47"
+  title: "What is \u201CServerless Computing\u201D?"
+  url: https://medium.com/p/a07f4a96759b
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1621a9c93ec:c7c16:a077e55f
+  item_date: "2018-03-12 07:28:10"
+  title: 'Serverless Ops:'
+  url: https://medium.com/p/b2fe94dcdafd
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1622b054c2e:be38a0:76251cdd
+  item_date: "2018-03-12 13:29:34"
+  title: "Serverless \u2014 Building a crypto wallet balance API to use with google
+    spreadsheets (part 2)"
+  url: https://medium.com/p/61ad3986371f
+  domain: medium.com
+  image: ""
+- curated_id: 20tAExShAQEEUCMDXqXKkXAKdXMeA9Rvcav680eAk4I=_162204ff503:58a112:7d6c1c1c
+  item_date: "2018-03-13 09:55:27"
+  title: Serverless Computing
+  url: https://blog.algorithmia.com/?p=12125
+  domain: blog.algorithmia.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1622076da46:15b0da7:76251cdd
+  item_date: "2018-03-13 10:44:40"
+  title: 'AWS Tutorial: How to Build a Serverless Slack Chatbot'
+  url: https://medium.com/p/19f74e5bc84b
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16221370f88:16eae92:bdf8aaf1
+  item_date: "2018-03-13 14:14:36"
+  title: Under The Hood of Effectiv
+  url: https://medium.com/p/a7b791715067
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162214c15b5:1709c81:bdf8aaf1
+  item_date: "2018-03-13 14:37:35"
+  title: Designing an event
+  url: https://medium.com/p/c4de3f7539fc
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16225187e13:3a4c49:76251cdd
+  item_date: "2018-03-14 08:19:42"
+  title: Examining the AWS Serverless Application Repository
+  url: https://medium.com/p/9ef316e2fd4
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1622a698fac:aeb1a6:76251cdd
+  item_date: "2018-03-15 09:06:21"
+  title: Why AWS Lambda and .zip is a recipe for serverless success
+  url: https://medium.com/p/4f547a6e87c3
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_1622e225aad:11932ad:9f3b30f2
+  item_date: "2018-03-16 02:02:11"
+  title: Serverless Application with Google Flutter and Lambda
+  url: https://dzone.com/articles/2118637
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1622f896a57:4919b9:bdf8aaf1
+  item_date: "2018-03-16 08:59:15"
+  title: 'Hello Cloud : a Serverless journey'
+  url: https://medium.com/p/e4a5da225d7a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162360a7567:b77e02:bdf8aaf1
+  item_date: "2018-03-17 15:17:55"
+  title: Running Go AWS Lambdas locally with SLS framework and SAM
+  url: https://medium.com/p/af3d648d49cb
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16239ae5714:ddb10:a077e55f
+  item_date: "2018-03-18 08:15:47"
+  title: Integrating S3 with Lambda (plus some use cases)
+  url: https://medium.com/p/e82d3a02defc
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_1623e1031a6:25ad750:7d6c1c1c
+  item_date: "2018-03-18 16:49:02"
+  title: Operating Your Serverless API in Production at Scale
+  url: https://pages.awscloud.com/Operating-Your-Serverless-API-in-Production-at-Scale_0303-SRV.html?sc_channel=sm&sc_campaign=Serverless,Webinars&sc_publisher=TWITTER&sc_country=Global&sc_geo=GLOBAL&sc_outcome=adoption&trkCampaign=WEBINARSERIES&trk=sm_a131L000005tinsQAA_TWITTER&sc_content=NA-FY18-AWS-DIGMKT-WEBINAR-SERIES-March_0303-SRV&linkId=49409749
+  domain: pages.awscloud.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1627cd4dab0:33f93c:76251cdd
+  item_date: "2018-03-19 11:14:07"
+  title: Building a Serverless Vuejs App with Firebase Firestore
+  url: https://medium.com/p/c15641feea2e
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1624f31b0a0:5ecadd:bdf8aaf1
+  item_date: "2018-03-22 12:16:14"
+  title: Running a scalable & reliable GraphQL endpoint with Serverless
+  url: https://medium.com/p/db16e42dc266
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_16253f18a52:3ba60f:bdf8aaf1
+  item_date: "2018-03-23 10:39:19"
+  title: Why Serverless? Why Now?
+  url: https://medium.com/p/f09ce43c4767
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1625753b6a6:73c414:76251cdd
+  item_date: "2018-03-24 02:25:24"
+  title: 'Running around the block: a beginner meets AWS Lambda'
+  url: https://medium.com/p/560a1f2849ae
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16258fdb1a4:9002eb:76251cdd
+  item_date: "2018-03-24 10:10:40"
+  title: Deploy a serverless flask application on AWS Lambda
+  url: https://medium.com/p/d8ca58af42a4
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_162598bc6fc:999a77:bdf8aaf1
+  item_date: "2018-03-24 12:45:53"
+  title: 'Serverless and Flogo: A Perfect Match'
+  url: https://medium.com/p/aea01117f21f
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1625ccc8009:c1bd6:a077e55f
+  item_date: "2018-03-25 03:55:26"
+  title: "How we migrated our infrastructure to \u201Cserverless\u201D"
+  url: https://medium.com/p/83de6e62f9a8
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1625e859018:dc1c7:a077e55f
+  item_date: "2018-03-25 11:57:11"
+  title: Serverless ETL using AWS Lambda
+  url: https://medium.com/p/1e7a20b0a723
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1625f0746af:ee702a:76251cdd
+  item_date: "2018-03-25 14:18:52"
+  title: 'Building Lambdas: Terraform vs Serverless.'
+  url: https://medium.com/p/21e1321f6a84
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16261b38c47:11eedc6:bdf8aaf1
+  item_date: "2018-03-26 02:46:17"
+  title: "Serverless doesn\u2019t have to be an infuriating black box"
+  url: https://medium.com/p/b23cca2b2ba2
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16268aeed19:4e2ed1:76251cdd
+  item_date: "2018-03-27 11:18:34"
+  title: Serverless Image Preprocessing using AWS Lambda
+  url: https://medium.com/p/42d58e1183f5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16269015119:57574f:bdf8aaf1
+  item_date: "2018-03-27 12:48:34"
+  title: Welcome to Quebic
+  url: https://medium.com/p/8fc226dbd74
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162697303ee:623f77:bdf8aaf1
+  item_date: "2018-03-27 14:52:46"
+  title: Sending emails with attachments with AWS Lambda and Node.js
+  url: https://medium.com/p/e6a78500227c
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1626b8d0f26:b95e:a077e55f
+  item_date: "2018-03-27 23:46:20"
+  title: Developing Polyglot Serverless Applications
+  url: https://medium.com/p/d4f749004da0
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1626b805f69:b3bbd:76251cdd
+  item_date: "2018-03-28 00:26:34"
+  title: Lessons learned in serverless
+  url: https://medium.com/p/6a4acc489d55
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1626c07b3d2:1639e:a077e55f
+  item_date: "2018-03-28 02:54:23"
+  title: Applying ROP Chaining Concepts to Serverless Functions
+  url: https://medium.com/p/572fec4ce1c1
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16272a228bf:ab1d9c:bdf8aaf1
+  item_date: "2018-03-28 17:00:00"
+  title: 'From Express.js to AWS Lambda: Migrating existing Node.js applications to
+    serverless'
+  url: https://medium.com/p/7473041ecc56
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16273bdd999:c5128f:bdf8aaf1
+  item_date: "2018-03-29 09:12:29"
+  title: Why All The Monolithic Serverless API Hate?
+  url: https://medium.com/p/2f673bf089e3
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162743d4e00:cd5bd9:76251cdd
+  item_date: "2018-03-29 17:09:55"
+  title: How to call multiple Serverless micro
+  url: https://medium.com/p/972b5b9e49dd
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16276813436:f82b3:a077e55f
+  item_date: "2018-03-30 03:43:19"
+  title: AWS DynamoDB for Serverless Microservices
+  url: https://medium.com/p/2acbbbff1bca
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162770906e7:fdf247:76251cdd
+  item_date: "2018-03-30 06:11:41"
+  title: Intro to Go Functions
+  url: https://medium.com/p/f505e976a23a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162776b50e4:1082aff:bdf8aaf1
+  item_date: "2018-03-30 07:59:02"
+  title: "How we migrated our infrastructure to \u201Cserverless\u201D"
+  url: https://medium.com/p/25e466a3bbdb
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16279062807:12f267:a077e55f
+  item_date: "2018-03-30 15:27:47"
+  title: Serverless podcast RSS feed parser
+  url: https://medium.com/p/52ed3c91ecb9
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16286030e31:bdd9c9:76251cdd
+  item_date: "2018-04-02 03:59:28"
+  title: "Getting started with AWS Lambda\u200A\u2014\u200APart 1"
+  url: https://medium.com/p/9a1394e66614
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162917e7a5c:af13c:a077e55f
+  item_date: "2018-04-04 09:30:06"
+  title: AWS Serverless MicroServices Composition
+  url: https://medium.com/p/2fee7caa3431
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162961236a2:4db4a7:bdf8aaf1
+  item_date: "2018-04-05 06:49:56"
+  title: Building single source of truth using Serverless and NoSQL
+  url: https://medium.com/p/bca6c9d45eeb
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_1629aea0603:20f105:7c9981b6
+  item_date: "2018-04-06 05:01:02"
+  title: 'AWS Lambda: Your Quick Start Guide to Going Serverless'
+  url: https://dzone.com/articles/2151190
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1629f4a3155:1d4a2f:bdf8aaf1
+  item_date: "2018-04-07 01:47:40"
+  title: 'Azure Functions step 1: start developing Serverless functions locally'
+  url: https://medium.com/p/90a21ce723b7
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162a008a07c:2522e:a077e55f
+  item_date: "2018-04-07 05:15:41"
+  title: "Cloudflare Workers\u2026.where\u2019s the origin?"
+  url: https://medium.com/p/aac1578fd738
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162a93ebd9f:b54221:76251cdd
+  item_date: "2018-04-09 00:11:22"
+  title: Developing Applications with Serverless Architecture
+  url: https://medium.com/p/54d7da80adc9
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162a9fb6461:c48e81:bdf8aaf1
+  item_date: "2018-04-09 03:37:25"
+  title: Spreading the Word on Serverless
+  url: https://medium.com/p/1caa9683a65c
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162b69682a5:646962:bdf8aaf1
+  item_date: "2018-04-11 14:22:17"
+  title: Dispatch + Services
+  url: https://medium.com/p/a501e69613eb
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162b7ec23d3:7c7027:bdf8aaf1
+  item_date: "2018-04-11 20:35:26"
+  title: Lessons Learned using AWS Lambda as Remediation System
+  url: https://medium.com/p/fa3e1d881ae3
+  domain: medium.com
+  image: ""
+- curated_id: +QuXNY32CQYzE16SQ2izcWYcIemLFvQqdDmj8F09ZZM=_162bc5a0733:11db5ce:34f43e70
+  item_date: "2018-04-12 00:00:00"
+  title: To Do Serverless Right, You Need A New IAM Approach
+  url: https://www.stackery.io/blog/to-do-serverless-right-you-need-a-new-iam-approach
+  domain: www.stackery.io
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162b90d7902:910050:bdf8aaf1
+  item_date: "2018-04-12 00:28:47"
+  title: Serverless and Kubernetes Demos
+  url: https://medium.com/p/d3729b4d530b
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162b976e05f:991cea:bdf8aaf1
+  item_date: "2018-04-12 03:46:36"
+  title: 'AWS Lambda: Easily process millions of files at low cost.'
+  url: https://medium.com/p/f69c1f22ac45
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162bb1df4a3:c3b17d:76251cdd
+  item_date: "2018-04-12 11:28:43"
+  title: Slowly Baking Bread with AWS Step Functions
+  url: https://medium.com/p/588ae46498bc
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_162bb85a3b1:77d6:a077e55f
+  item_date: "2018-04-12 13:18:31"
+  title: Deploy your Flask API to any Serverless Cloud Platform using this Simple
+    Pattern
+  url: https://medium.com/p/2d32c3c4629a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162be51875f:1f4bfe:76251cdd
+  item_date: "2018-04-13 02:23:55"
+  title: Exploring Dask and Distributed on AWS Lambda
+  url: https://medium.com/p/55d81d9641d
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162be8150cc:23d8fc:bdf8aaf1
+  item_date: "2018-04-13 03:16:06"
+  title: Create a personalised news feed with AWS Lambda, Telegram and NewsAPI
+  url: https://medium.com/p/6e1c75adbdd5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162bf7c2015:3bbbf:a077e55f
+  item_date: "2018-04-13 07:50:03"
+  title: Dealing with cold starts in AWS Lambda
+  url: https://medium.com/p/a5e3aa8f532
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162c4a916a6:303f56:76251cdd
+  item_date: "2018-04-14 07:57:16"
+  title: Serverless application with AWS Lambda and Kotlin. Part 1
+  url: https://medium.com/p/62d12ce7d64f
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162c5efdfcb:45f9f1:bdf8aaf1
+  item_date: "2018-04-14 13:54:12"
+  title: Node
+  url: https://medium.com/p/a4c5fe411498
+  domain: medium.com
+  image: ""
+- curated_id: ZQTLjViBmHaIIqn2rojMd1cDp5whcNyr6F3eheqPe98=_162c90caabd:224f60d:34f43e70
+  item_date: "2018-04-15 04:08:07"
+  title: 'Aws vs Google vs Microsoft: How cloud giants are battling it out in the
+    serverless arena'
+  url: https://data-economy.com/aws-vs-google-vs-microsoft-how-cloud-giants-are-battling-it-out-in-the-serverless-arena/
+  domain: data-economy.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_162d46635ac:32bc06f:7d6c1c1c
+  item_date: "2018-04-17 08:40:38"
+  title: Fantastic Serverless security risks, and where to find them
+  url: https://medium.com/p/737d2206545a
+  domain: medium.com
+  image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_162e45c54d4:5266f6:76251cdd
+  item_date: "2018-04-20 05:00:00"
+  title: Webtask.io Migrating to Node 8
+  url: https://auth0.com/blog/webtask-dot-io-migrating-to-node-8
+  domain: auth0.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162e5adbce1:771a4:bdf8aaf1
+  item_date: "2018-04-20 17:49:49"
+  title: Serverless
+  url: https://medium.com/p/b94d15782af5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162e68272f0:a0287:bdf8aaf1
+  item_date: "2018-04-20 21:42:09"
+  title: 'The Holo vision: Serverless 2.0'
+  url: https://medium.com/p/c0b294e753ba
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1634f493e56:2ccc67:abeb7260
+  item_date: "2018-04-24 09:37:26"
+  title: Error handling with API Gateway and Go Lambda functions
+  url: https://medium.com/p/fe0e10808732
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_162fbe4a4fb:9652f:a96d255
+  item_date: "2018-04-25 01:21:25"
+  title: 'Google Cloud Functions Tutorial : What is Google Cloud Functions?'
+  url: https://medium.com/p/8796fa07fc7a
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16306b5c317:1fb28:ed160cc3
+  item_date: "2018-04-27 03:46:03"
+  title: 9 Serverless Security Best Practices
+  url: https://medium.com/p/ec280963530c
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16311fb28db:c99af:ed160cc3
+  item_date: "2018-04-29 08:17:41"
+  title: Documenting Serverless Architectures
+  url: https://medium.com/p/69bf63fc67b0
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_163196b9d91:174f01:c2c34441
+  item_date: "2018-04-30 18:57:50"
+  title: "AWS Lambda \u2014 Serverless Superhero"
+  url: https://medium.com/p/918e07a4e986
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_1631afeadb2:23a59a0:11c251fd
+  item_date: "2018-05-01 02:01:41"
+  title: Infrastructure Cost Optimization with Lambda
+  url: https://dzone.com/articles/2195024
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_16328388227:1630b:ed160cc3
+  item_date: "2018-05-03 15:56:20"
+  title: A crash course on securing Serverless APIs with JSON web tokens
+  url: https://medium.com/p/ff657ab2f5a5
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_163299e43a3:129fcfd:5785ab88
+  item_date: "2018-05-03 22:01:01"
+  title: Introduction to Serverless Computing
+  url: https://dzone.com/articles/2198063
+  domain: dzone.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_163337dc5c7:53bce2:abeb7260
+  item_date: "2018-05-05 20:27:48"
+  title: "Serverless \u201CHello World\u201D in AWS"
+  url: https://medium.com/p/2cd2055294c5
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1634f206f28:2cf72:d63e3ae2
+  item_date: "2018-05-11 05:15:13"
+  title: 'The monolith, microservices and serverless computing: pros and cons'
+  url: https://medium.com/p/c1ecf2bdc317
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1635f7ab72f:cd12a:d63e3ae2
+  item_date: "2018-05-13 10:57:19"
+  title: auto
+  url: https://medium.com/p/a0a9675a1d98
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1635f569faf:d4e65b:abeb7260
+  item_date: "2018-05-14 08:48:20"
+  title: Gzip/deflate content from AWS API Gateway using Serverless
+  url: https://medium.com/p/36e208da4270
+  domain: medium.com
+  image: ""
+- curated_id: Xne8uW/IUiZhV1EuO2ZMzIrc2Ak6NlhGjboZ+Yk0rJ8=_1635f6ef1e9:d827a4:f3bf0074
+  item_date: "2018-05-14 09:14:13"
+  title: AWS introduces 1
+  url: https://techcrunch.com/?p=1639198
+  domain: techcrunch.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_1636849022b:3f8f46b:93d646dc
+  item_date: "2018-05-16 02:02:31"
+  title: The Future of Ops in a Serverless World
+  url: https://dzone.com/articles/2212940
+  domain: dzone.com
+  image: ""
+- curated_id: 4b5tCw5GvlXtruVS/z16h27znplNFRBntlQNEyTCvpo=_163690c7827:4101f29:93d646dc
+  item_date: "2018-05-16 05:33:51"
+  title: 'Red Hat Summit: Functions as a Service with OpenWhisk and OpenShift'
+  url: https://developers.redhat.com/blog/?p=494647
+  domain: developers.redhat.com
   image: ""
 ...
