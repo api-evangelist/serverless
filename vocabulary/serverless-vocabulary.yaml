@@ -1,0 +1,328 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Serverless
+  description: Vocabulary for the serverless topic, covering function-as-a-service runtimes, edge functions, durable workflows, and event-driven invocation platforms.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: AWS Lambda
+      namespace: aws-lambda
+      status: active
+    - name: Cloudflare Workers
+      namespace: cloudflare
+      status: active
+    - name: Google Cloud Run
+      namespace: google-cloud-run
+      status: active
+    - name: Vercel Functions
+      namespace: vercel
+      status: active
+    - name: Modal
+      namespace: modal
+      status: active
+    - name: Inngest
+      namespace: inngest
+      status: active
+    - name: Fermyon Spin
+      namespace: spin
+      status: active
+
+  resources:
+    - name: functions
+      description: Deployable serverless function or edge function units
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - invoke
+    - name: invocations
+      description: Records of individual function executions, including duration, cold start, and result
+      actions:
+        - list
+        - get
+    - name: triggers
+      description: Event sources or schedules that invoke functions
+      actions:
+        - list
+        - get
+        - create
+        - delete
+    - name: deployments
+      description: Released versions of functions or function applications
+      actions:
+        - list
+        - get
+        - create
+        - rollback
+    - name: workflows
+      description: Durable, multi-step orchestrations built on top of serverless functions
+      actions:
+        - list
+        - get
+        - create
+        - start
+        - cancel
+    - name: logs
+      description: Structured log records emitted by function invocations
+      actions:
+        - list
+        - search
+    - name: metrics
+      description: Aggregated runtime metrics such as invocation count, duration, error rate, and cold start rate
+      actions:
+        - list
+        - query
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Search resources by criteria
+      httpMethod: GET
+      pattern: query
+    - name: query
+      description: Query time-series data such as logs or metrics
+      httpMethod: GET
+      pattern: query
+    - name: create
+      description: Create a new resource (function, trigger, workflow)
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: invoke
+      description: Synchronously or asynchronously invoke a function
+      httpMethod: POST
+      pattern: execute
+    - name: start
+      description: Start a durable workflow execution
+      httpMethod: POST
+      pattern: execute
+    - name: cancel
+      description: Cancel an in-flight workflow execution
+      httpMethod: POST
+      pattern: write
+    - name: rollback
+      description: Roll back to a previous deployment version
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: ServerlessFunction
+        description: A deployable serverless function definition
+        properties:
+          - name
+          - platform
+          - runtime
+          - handler
+          - memory_mb
+          - timeout_seconds
+          - concurrency_limit
+          - triggers
+          - environment
+          - region
+          - snapstart
+          - package_type
+          - function_url
+          - tags
+      - name: ServerlessInvocation
+        description: A record of a single function invocation
+        properties:
+          - invocation_id
+          - function_name
+          - platform
+          - trigger_type
+          - started_at
+          - duration_ms
+          - billed_duration_ms
+          - memory_used_mb
+          - cold_start
+          - init_duration_ms
+          - status
+          - status_code
+          - error
+          - region
+          - trace_id
+
+  enums:
+    platforms:
+      - aws-lambda
+      - aws-app-runner
+      - aws-step-functions
+      - google-cloud-functions
+      - google-cloud-run
+      - azure-functions
+      - cloudflare-workers
+      - cloudflare-pages-functions
+      - vercel-functions
+      - vercel-edge-functions
+      - netlify-functions
+      - deno-deploy
+      - fastly-compute
+      - modal
+      - fermyon-spin
+      - wasmcloud
+      - wasmedge
+      - knative
+      - openfaas
+      - apache-openwhisk
+      - supabase-functions
+      - firebase-functions
+      - convex
+      - inngest
+      - trigger-dev
+      - twilio-functions
+      - auth0-actions
+      - koyeb
+      - scaleway-functions
+    trigger_types:
+      - http
+      - function-url
+      - schedule
+      - queue
+      - topic
+      - object-storage
+      - database
+      - stream
+      - webhook
+      - event-bus
+      - manual
+    package_types:
+      - zip
+      - container-image
+      - wasm-module
+      - source
+    invocation_statuses:
+      - success
+      - handled-error
+      - unhandled-error
+      - timeout
+      - throttled
+      - out-of-memory
+
+capability:
+  workflows:
+    - name: Webhook Receiver Deployment
+      description: Deploy a serverless function as a webhook receiver, validate signatures, and forward events to downstream systems
+      apis:
+        - aws-lambda
+        - cloudflare
+        - vercel
+      personas:
+        - Backend Developer
+      domains:
+        - FaaS
+        - Event-Driven
+    - name: Edge Personalization
+      description: Run logic at the CDN edge to rewrite, geolocate, or A/B test responses with low latency
+      apis:
+        - cloudflare
+        - fastly
+        - vercel
+      personas:
+        - Edge Developer
+      domains:
+        - Edge Functions
+    - name: Durable Workflow Orchestration
+      description: Orchestrate multi-step, long-running workflows with retries, sleeps, and human-in-the-loop steps on serverless infrastructure
+      apis:
+        - aws-step-functions
+        - inngest
+        - trigger-dev
+      personas:
+        - Platform Engineer
+      domains:
+        - Durable Workflows
+    - name: AI Inference on Demand
+      description: Run model inference or GPU batch workloads on serverless platforms that scale GPUs to zero between requests
+      apis:
+        - modal
+        - google-cloud-run
+      personas:
+        - ML Engineer
+      domains:
+        - Serverless GPU
+
+  personas:
+    - id: backend-developer
+      name: Backend Developer
+      description: Developers building HTTP APIs, webhooks, and business logic on serverless platforms
+      workflows:
+        - Webhook Receiver Deployment
+    - id: edge-developer
+      name: Edge Developer
+      description: Developers writing JavaScript or WebAssembly logic deployed to CDN edge runtimes
+      workflows:
+        - Edge Personalization
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers operating shared serverless platforms, durable execution, and internal developer tooling
+      workflows:
+        - Durable Workflow Orchestration
+    - id: ml-engineer
+      name: ML Engineer
+      description: Engineers running model training, fine-tuning, and inference on on-demand serverless GPU platforms
+      workflows:
+        - AI Inference on Demand
+
+  domains:
+    - name: FaaS
+      description: Hyperscaler function-as-a-service platforms that run short-lived code units triggered by events
+    - name: Edge Functions
+      description: Runtimes that execute code in CDN points of presence close to end users
+    - name: Durable Workflows
+      description: Orchestrators that run long-lived, stateful workflows on serverless infrastructure
+    - name: Event-Driven
+      description: Event-source-triggered invocation patterns including queues, streams, and pub/sub topics
+    - name: Serverless GPU
+      description: Serverless platforms that schedule GPU workloads with scale-to-zero billing
+
+crossReference:
+  - resource: functions
+    operations:
+      - list
+      - create
+      - invoke
+    workflows:
+      - Webhook Receiver Deployment
+      - Edge Personalization
+    personas:
+      - Backend Developer
+      - Edge Developer
+  - resource: workflows
+    operations:
+      - create
+      - start
+      - cancel
+    workflows:
+      - Durable Workflow Orchestration
+    personas:
+      - Platform Engineer
+  - resource: invocations
+    operations:
+      - list
+      - get
+    workflows:
+      - Webhook Receiver Deployment
+      - AI Inference on Demand
+    personas:
+      - Backend Developer
+      - ML Engineer

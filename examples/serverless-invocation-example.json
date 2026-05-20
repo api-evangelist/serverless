@@ -1,0 +1,16 @@
+{
+  "invocation_id": "5f1c8b30-9b54-4e3e-a5a4-9b1a55c0a2f8",
+  "function_name": "process-stripe-webhook",
+  "platform": "aws-lambda",
+  "trigger_type": "function-url",
+  "started_at": "2026-05-19T14:23:01.123Z",
+  "duration_ms": 142.7,
+  "billed_duration_ms": 143,
+  "memory_used_mb": 96,
+  "cold_start": false,
+  "init_duration_ms": 0,
+  "status": "success",
+  "status_code": 200,
+  "region": "us-east-1",
+  "trace_id": "1-65ff0c10-1a2b3c4d5e6f7890"
+}

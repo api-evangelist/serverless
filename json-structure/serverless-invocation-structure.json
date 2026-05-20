@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/serverless/refs/heads/main/json-structure/serverless-invocation-structure.json",
+  "name": "ServerlessInvocation",
+  "description": "Represents a single invocation of a serverless function, including execution metadata such as cold start, duration, and result status.",
+  "type": "object",
+  "properties": {
+    "invocation_id": {
+      "type": "string",
+      "description": "Platform-assigned unique identifier for this invocation, often the request ID or trace ID.",
+      "example": "5f1c8b30-9b54-4e3e-a5a4-9b1a55c0a2f8"
+    },
+    "function_name": {
+      "type": "string",
+      "description": "Name of the function that was invoked.",
+      "example": "process-stripe-webhook"
+    },
+    "platform": {
+      "type": "string",
+      "description": "Serverless platform on which the invocation ran.",
+      "example": "aws-lambda"
+    },
+    "trigger_type": {
+      "type": "string",
+      "description": "Type of trigger that produced this invocation.",
+      "enum": [
+        "http",
+        "function-url",
+        "schedule",
+        "queue",
+        "topic",
+        "object-storage",
+        "database",
+        "stream",
+        "webhook",
+        "event-bus",
+        "manual"
+      ],
+      "example": "http"
+    },
+    "started_at": {
+      "type": "datetime",
+      "description": "Timestamp when the invocation started.",
+      "example": "2026-05-19T14:23:01.123Z"
+    },
+    "duration_ms": {
+      "type": "double",
+      "description": "Wall-clock execution duration in milliseconds.",
+      "minimum": 0,
+      "example": 142.7
+    },
+    "billed_duration_ms": {
+      "type": "double",
+      "description": "Billed duration in milliseconds, rounded up by the platform's billing granularity.",
+      "minimum": 0,
+      "example": 143
+    },
+    "memory_used_mb": {
+      "type": "int32",
+      "description": "Peak memory consumption observed during the invocation, in megabytes.",
+      "minimum": 0,
+      "example": 96
+    },
+    "cold_start": {
+      "type": "boolean",
+      "description": "Whether this invocation incurred a cold start (new runtime container or isolate initialization).",
+      "example": false
+    },
+    "init_duration_ms": {
+      "type": "double",
+      "description": "Initialization time for cold starts, in milliseconds. Zero or null for warm invocations.",
+      "minimum": 0,
+      "example": 0
+    },
+    "status": {
+      "type": "string",
+      "description": "Result status of the invocation.",
+      "enum": [
+        "success",
+        "handled-error",
+        "unhandled-error",
+        "timeout",
+        "throttled",
+        "out-of-memory"
+      ],
+      "example": "success"
+    },
+    "status_code": {
+      "type": "int32",
+      "description": "HTTP-style status code returned to the caller, when applicable.",
+      "example": 200
+    },
+    "error": {
+      "type": "object",
+      "description": "Error information if the invocation failed.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "example": "TimeoutError"
+        },
+        "message": {
+          "type": "string",
+          "example": "Function execution timed out after 30s"
+        }
+      }
+    },
+    "region": {
+      "type": "string",
+      "description": "Region or edge POP where the invocation executed.",
+      "example": "iad1"
+    },
+    "trace_id": {
+      "type": "string",
+      "description": "Distributed tracing identifier propagated from the caller.",
+      "example": "1-65ff0c10-1a2b3c4d5e6f7890"
+    }
+  },
+  "required": [
+    "invocation_id",
+    "function_name",
+    "platform",
+    "started_at",
+    "duration_ms",
+    "status"
+  ]
+}

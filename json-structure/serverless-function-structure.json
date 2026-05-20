@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/serverless/refs/heads/main/json-structure/serverless-function-structure.json",
+  "name": "ServerlessFunction",
+  "description": "Represents a deployable serverless function or edge function unit on a FaaS platform.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Logical name of the serverless function.",
+      "example": "process-stripe-webhook"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what the function does.",
+      "example": "Validates an incoming Stripe webhook signature and writes the event to an SQS queue for downstream processing."
+    },
+    "platform": {
+      "type": "string",
+      "description": "Serverless platform hosting this function.",
+      "enum": [
+        "aws-lambda",
+        "aws-app-runner",
+        "aws-step-functions",
+        "google-cloud-functions",
+        "google-cloud-run",
+        "azure-functions",
+        "cloudflare-workers",
+        "cloudflare-pages-functions",
+        "vercel-functions",
+        "vercel-edge-functions",
+        "netlify-functions",
+        "deno-deploy",
+        "fastly-compute",
+        "modal",
+        "fermyon-spin",
+        "wasmcloud",
+        "wasmedge",
+        "knative",
+        "openfaas",
+        "apache-openwhisk",
+        "supabase-functions",
+        "firebase-functions",
+        "convex",
+        "inngest",
+        "trigger-dev",
+        "twilio-functions",
+        "auth0-actions",
+        "koyeb",
+        "scaleway-functions",
+        "other"
+      ],
+      "example": "aws-lambda"
+    },
+    "runtime": {
+      "type": "string",
+      "description": "Language or runtime the function executes in.",
+      "example": "nodejs20.x"
+    },
+    "handler": {
+      "type": "string",
+      "description": "Entrypoint reference, typically file and exported function name.",
+      "example": "src/handlers/stripe.handler"
+    },
+    "memory_mb": {
+      "type": "int32",
+      "description": "Memory allocation for the function in megabytes.",
+      "minimum": 64,
+      "maximum": 10240,
+      "example": 512
+    },
+    "timeout_seconds": {
+      "type": "int32",
+      "description": "Maximum execution time before the platform forcibly terminates an invocation.",
+      "minimum": 1,
+      "maximum": 900,
+      "example": 30
+    },
+    "concurrency_limit": {
+      "type": "int32",
+      "description": "Maximum number of concurrent invocations permitted; null indicates platform default unbounded scaling.",
+      "minimum": 0,
+      "example": 100
+    },
+    "triggers": {
+      "type": "array",
+      "description": "Events or sources that can invoke this function.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "http",
+              "function-url",
+              "schedule",
+              "queue",
+              "topic",
+              "object-storage",
+              "database",
+              "stream",
+              "webhook",
+              "event-bus",
+              "manual"
+            ],
+            "example": "http"
+          },
+          "source": {
+            "type": "string",
+            "description": "Identifier of the trigger source, e.g. event bus name, bucket name, or cron expression.",
+            "example": "POST /webhooks/stripe"
+          }
+        },
+        "required": [
+          "type"
+        ]
+      }
+    },
+    "environment": {
+      "type": "map",
+      "description": "Non-secret environment variables exposed to the function.",
+      "values": {
+        "type": "string"
+      },
+      "example": {
+        "LOG_LEVEL": "info",
+        "REGION": "us-east-1"
+      }
+    },
+    "region": {
+      "type": "string",
+      "description": "Region or edge location identifier where the function is deployed.",
+      "example": "us-east-1"
+    },
+    "snapstart": {
+      "type": "boolean",
+      "description": "Whether snapshot-based cold start acceleration (e.g. AWS Lambda SnapStart) is enabled.",
+      "example": true
+    },
+    "package_type": {
+      "type": "string",
+      "enum": [
+        "zip",
+        "container-image",
+        "wasm-module",
+        "source"
+      ],
+      "description": "How the function code is packaged and deployed.",
+      "example": "zip"
+    },
+    "function_url": {
+      "type": "uri",
+      "description": "Direct HTTPS endpoint URL exposed for this function, if any.",
+      "example": "https://abc123.lambda-url.us-east-1.on.aws/"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags categorizing the function.",
+      "example": [
+        "webhook",
+        "billing",
+        "stripe"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "platform",
+    "runtime",
+    "handler"
+  ]
+}

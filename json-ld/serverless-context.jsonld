@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "srv": "https://api-evangelist.github.io/serverless/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "ServerlessFunction": "srv:ServerlessFunction",
+    "ServerlessInvocation": "srv:ServerlessInvocation",
+
+    "name": "schema:name",
+    "description": "schema:description",
+
+    "platform": {
+      "@id": "srv:platform",
+      "@type": "xsd:string"
+    },
+    "runtime": {
+      "@id": "srv:runtime",
+      "@type": "xsd:string"
+    },
+    "handler": {
+      "@id": "srv:handler",
+      "@type": "xsd:string"
+    },
+    "memory_mb": {
+      "@id": "srv:memoryMb",
+      "@type": "xsd:integer"
+    },
+    "timeout_seconds": {
+      "@id": "srv:timeoutSeconds",
+      "@type": "xsd:integer"
+    },
+    "concurrency_limit": {
+      "@id": "srv:concurrencyLimit",
+      "@type": "xsd:integer"
+    },
+    "triggers": {
+      "@id": "srv:triggers",
+      "@container": "@set"
+    },
+    "environment": {
+      "@id": "srv:environment",
+      "@container": "@index"
+    },
+    "region": {
+      "@id": "srv:region",
+      "@type": "xsd:string"
+    },
+    "snapstart": {
+      "@id": "srv:snapstart",
+      "@type": "xsd:boolean"
+    },
+    "package_type": {
+      "@id": "srv:packageType",
+      "@type": "xsd:string"
+    },
+    "function_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+
+    "invocation_id": {
+      "@id": "srv:invocationId",
+      "@type": "xsd:string"
+    },
+    "function_name": {
+      "@id": "srv:functionName",
+      "@type": "xsd:string"
+    },
+    "trigger_type": {
+      "@id": "srv:triggerType",
+      "@type": "xsd:string"
+    },
+    "started_at": {
+      "@id": "srv:startedAt",
+      "@type": "xsd:dateTime"
+    },
+    "duration_ms": {
+      "@id": "srv:durationMs",
+      "@type": "xsd:double"
+    },
+    "billed_duration_ms": {
+      "@id": "srv:billedDurationMs",
+      "@type": "xsd:double"
+    },
+    "memory_used_mb": {
+      "@id": "srv:memoryUsedMb",
+      "@type": "xsd:integer"
+    },
+    "cold_start": {
+      "@id": "srv:coldStart",
+      "@type": "xsd:boolean"
+    },
+    "init_duration_ms": {
+      "@id": "srv:initDurationMs",
+      "@type": "xsd:double"
+    },
+    "status": {
+      "@id": "srv:status",
+      "@type": "xsd:string"
+    },
+    "status_code": {
+      "@id": "srv:statusCode",
+      "@type": "xsd:integer"
+    },
+    "error": {
+      "@id": "srv:error"
+    },
+    "trace_id": {
+      "@id": "srv:traceId",
+      "@type": "xsd:string"
+    }
+  }
+}

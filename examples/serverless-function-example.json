@@ -1,0 +1,26 @@
+{
+  "name": "process-stripe-webhook",
+  "description": "Validates an incoming Stripe webhook signature and writes the event to an SQS queue for downstream processing.",
+  "platform": "aws-lambda",
+  "runtime": "nodejs20.x",
+  "handler": "src/handlers/stripe.handler",
+  "memory_mb": 512,
+  "timeout_seconds": 30,
+  "concurrency_limit": 100,
+  "triggers": [
+    {
+      "type": "function-url",
+      "source": "POST /webhooks/stripe"
+    }
+  ],
+  "environment": {
+    "LOG_LEVEL": "info",
+    "REGION": "us-east-1",
+    "QUEUE_URL": "https://sqs.us-east-1.amazonaws.com/123456789012/stripe-events"
+  },
+  "region": "us-east-1",
+  "snapstart": true,
+  "package_type": "zip",
+  "function_url": "https://abc123.lambda-url.us-east-1.on.aws/",
+  "tags": ["webhook", "billing", "stripe"]
+}
