@@ -1,0 +1,26 @@
+title: Serverless
+description: An index and topic collection covering serverless compute, function-as-a-service
+  (FaaS) runtimes, and edge function platforms. Serverless platforms abstract away
+  server management, scale on demand, and bill per invocation, letting developers
+  ship event-driven functions, scheduled jobs, durable workflows, and HTTP endpoints
+  without provisioning infrastructure. This collection includes hyperscaler functions
+  like AWS Lambda, Azure Functions, and Google Cloud Functions; edge runtimes like
+  Cloudflare Workers, Vercel Edge Functions, Fastly Compute@Edge, and Deno Deploy;
+  container-based serverless like Google Cloud Run and AWS App Runner; WebAssembly-first
+  platforms like Fermyon Spin and wasmCloud; durable workflow services like AWS Step
+  Functions, Inngest, and Trigger.dev; and BaaS function runtimes like Supabase Functions,
+  Firebase Functions, and Convex.
+url: https://serverless.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

@@ -1,0 +1,201 @@
+meta:
+  name: Serverless
+  description: An index and topic collection covering serverless compute, function-as-a-service
+    (FaaS) runtimes, and edge function platforms. Serverless platforms abstract away
+    server management, scale on demand, and bill per invocation, letting developers
+    ship event-driven functions, scheduled jobs, durable workflows, and HTTP endpoints
+    without provisioning infrastructure. This collection includes hyperscaler functions
+    like AWS Lambda, Azure Functions, and Google Cloud Functions; edge runtimes like
+    Cloudflare Workers, Vercel Edge Functions, Fastly Compute@Edge, and Deno Deploy;
+    container-based serverless like Google Cloud Run and AWS App Runner; WebAssembly-first
+    platforms like Fermyon Spin and wasmCloud; durable workflow services like AWS
+    Step Functions, Inngest, and Trigger.dev; and BaaS function runtimes like Supabase
+    Functions, Firebase Functions, and Convex.
+  tags:
+  - Serverless
+  - Functions as a Service
+  - Edge Functions
+  - Cold Start
+  - WebAssembly
+  - FaaS
+  - Durable Workflows
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: serverless
+services_tools:
+- name: Apache OpenWhisk
+  repo: https://github.com/api-evangelist/apache-openwhisk
+  apisio: https://providers.apis.io/providers/apache-openwhisk/
+- name: Auth0
+  repo: https://github.com/api-evangelist/auth0
+  apisio: https://providers.apis.io/providers/auth0/
+- name: AWS App Runner
+  repo: https://github.com/api-evangelist/aws-app-runner
+  apisio: https://providers.apis.io/providers/aws-app-runner/
+- name: AWS Lambda
+  repo: https://github.com/api-evangelist/aws-lambda
+  apisio: https://providers.apis.io/providers/aws-lambda/
+- name: AWS Step Functions
+  repo: https://github.com/api-evangelist/aws-step-functions
+  apisio: https://providers.apis.io/providers/aws-step-functions/
+- name: Azure Functions
+  repo: https://github.com/api-evangelist/azure-functions
+  apisio: https://providers.apis.io/providers/azure-functions/
+- name: Cloudflare
+  repo: https://github.com/api-evangelist/cloudflare
+  apisio: https://providers.apis.io/providers/cloudflare/
+- name: Convex
+  repo: https://github.com/api-evangelist/convex
+  apisio: https://providers.apis.io/providers/convex/
+- name: Defer
+  repo: https://github.com/api-evangelist/defer
+  apisio: https://providers.apis.io/providers/defer/
+- name: Deno
+  repo: https://github.com/api-evangelist/deno
+  apisio: https://providers.apis.io/providers/deno/
+- name: Fastly
+  repo: https://github.com/api-evangelist/fastly
+  apisio: https://providers.apis.io/providers/fastly/
+- name: Fermyon
+  repo: https://github.com/api-evangelist/fermyon
+  apisio: https://providers.apis.io/providers/fermyon/
+- name: Google Cloud Functions
+  repo: https://github.com/api-evangelist/google-cloud-functions
+  apisio: https://providers.apis.io/providers/google-cloud-functions/
+- name: Google Cloud Run
+  repo: https://github.com/api-evangelist/google-cloud-run
+  apisio: https://providers.apis.io/providers/google-cloud-run/
+- name: Google Firebase
+  repo: https://github.com/api-evangelist/google-firebase
+  apisio: https://providers.apis.io/providers/google-firebase/
+- name: Inngest
+  repo: https://github.com/api-evangelist/inngest
+  apisio: https://providers.apis.io/providers/inngest/
+- name: Knative
+  repo: https://github.com/api-evangelist/knative
+  apisio: https://providers.apis.io/providers/knative/
+- name: Koyeb
+  repo: https://github.com/api-evangelist/koyeb
+  apisio: https://providers.apis.io/providers/koyeb/
+- name: Microsoft Azure Functions
+  repo: https://github.com/api-evangelist/microsoft-azure-functions
+  apisio: https://providers.apis.io/providers/microsoft-azure-functions/
+- name: Modal
+  repo: https://github.com/api-evangelist/modal
+  apisio: https://providers.apis.io/providers/modal/
+- name: Netlify
+  repo: https://github.com/api-evangelist/netlify
+  apisio: https://providers.apis.io/providers/netlify/
+- name: Quirrel
+  repo: https://github.com/api-evangelist/quirrel
+  apisio: https://providers.apis.io/providers/quirrel/
+- name: Scaleway
+  repo: https://github.com/api-evangelist/scaleway
+  apisio: https://providers.apis.io/providers/scaleway/
+- name: Serverless Patterns
+  repo: https://github.com/api-evangelist/serverless-patterns
+  apisio: https://providers.apis.io/providers/serverless-patterns/
+- name: Serverless Workflow
+  repo: https://github.com/api-evangelist/serverless-workflow
+  apisio: https://providers.apis.io/providers/serverless-workflow/
+- name: Spin
+  repo: https://github.com/api-evangelist/spin
+  apisio: https://providers.apis.io/providers/spin/
+- name: Supabase
+  repo: https://github.com/api-evangelist/supabase
+  apisio: https://providers.apis.io/providers/supabase/
+- name: Trigger.dev
+  repo: https://github.com/api-evangelist/trigger-dev
+  apisio: https://providers.apis.io/providers/trigger-dev/
+- name: Twilio
+  repo: https://github.com/api-evangelist/twilio
+  apisio: https://providers.apis.io/providers/twilio/
+- name: Vercel
+  repo: https://github.com/api-evangelist/vercel
+  apisio: https://providers.apis.io/providers/vercel/
+- name: wasmCloud
+  repo: https://github.com/api-evangelist/wasmcloud
+  apisio: https://providers.apis.io/providers/wasmcloud/
+- name: WasmEdge
+  repo: https://github.com/api-evangelist/wasmedge
+  apisio: https://providers.apis.io/providers/wasmedge/
+features:
+- name: Function-as-a-Service Runtimes
+  description: Serverless platforms execute short-lived, stateless functions in managed
+    runtimes that automatically scale from zero to many instances based on incoming
+    requests or events.
+- name: Event-Driven Invocation
+  description: Functions are triggered by HTTP requests, queue messages, object storage
+    events, scheduled cron jobs, database changes, and pub/sub topics without dedicated
+    listeners.
+- name: Edge Function Distribution
+  description: Edge runtimes like Cloudflare Workers, Vercel Edge Functions, and Fastly
+    Compute@Edge execute code in points of presence physically close to end users,
+    reducing latency.
+- name: Cold Start and Snapshot Optimization
+  description: Platforms reduce cold start latency through V8 isolates, Firecracker
+    microVMs, AWS Lambda SnapStart, and WebAssembly-based instant startup runtimes.
+- name: Durable Workflows and Orchestration
+  description: Services like AWS Step Functions, Inngest, and Trigger.dev provide
+    durable execution, retries, sleeps, and long-running workflows on top of serverless
+    functions.
+- name: Pay-per-Invocation Billing
+  description: Costs scale linearly with usage, billed per invocation and gigabyte-second
+    of compute time, with generous free tiers that absorb most low-traffic workloads.
+- name: WebAssembly Serverless
+  description: Platforms like Fermyon Spin, wasmCloud, and Fastly Compute@Edge run
+    WebAssembly modules with sub-millisecond startup, strong sandboxing, and polyglot
+    language support.
+- name: Function URLs and HTTP Endpoints
+  description: Direct HTTPS endpoints for functions (Lambda Function URLs, Cloud Run,
+    Workers routes) eliminate the need for a separate API gateway for simple HTTP
+    services.
+use_cases:
+- name: API Backends and Microservices
+  description: Serverless functions back HTTP APIs and microservices, scaling to zero
+    during idle periods and absorbing traffic spikes without capacity planning.
+- name: Webhook Receivers and Integrations
+  description: Functions process incoming webhooks from SaaS platforms (Stripe, GitHub,
+    Slack), validate signatures, transform payloads, and fan out to downstream systems.
+- name: Scheduled and Cron Jobs
+  description: Platforms like Vercel Cron, Cloudflare Cron Triggers, and EventBridge
+    schedule functions to run on a cadence for batch jobs, cleanups, and periodic
+    syncs.
+- name: Image and Media Processing
+  description: Functions resize, transcode, or watermark uploaded media in response
+    to object storage events, often paired with edge caching for delivery.
+- name: Real-Time Edge Personalization
+  description: Edge functions rewrite responses, inject A/B test variants, geolocate
+    visitors, and personalize HTML at the CDN edge with single-digit-millisecond overhead.
+- name: AI Inference and Agent Tools
+  description: Serverless GPU platforms like Modal and Cloud Run run AI model inference
+    on demand; functions also serve as tool endpoints for LLM agents.
+- name: Durable Long-Running Workflows
+  description: Step Functions, Inngest, and Trigger.dev orchestrate multi-step business
+    processes with retries, human-in-the-loop steps, and durable timers across hours
+    or days.
+integrations:
+- name: AWS Lambda
+  description: The original FaaS platform with first-class integrations into 200+
+    AWS services, Function URLs, SnapStart, and container image support.
+- name: Cloudflare Workers
+  description: V8-isolate edge runtime executing JavaScript and WebAssembly in 300+
+    points of presence with sub-millisecond cold starts.
+- name: Google Cloud Run
+  description: Container-based serverless platform that scales any HTTP container
+    from zero, with both fully managed and Kubernetes-backed deployment modes.
+- name: Vercel Functions
+  description: Edge and Node.js serverless functions tightly integrated with the Vercel
+    frontend platform, Next.js, and ISR.
+- name: Modal
+  description: Python-first serverless platform for AI inference, batch jobs, and
+    long-running GPU workloads with code-defined infrastructure.
+- name: Inngest
+  description: Durable execution and event-driven workflow platform built on top of
+    serverless functions across cloud providers.
+- name: Fermyon Spin
+  description: WebAssembly-native serverless runtime supporting polyglot Spin apps
+    deployed to Fermyon Cloud or self-hosted clusters.
+- name: Supabase Functions
+  description: Deno-based edge functions colocated with Supabase Postgres, Auth, and
+    Storage for backend-as-a-service workloads.
