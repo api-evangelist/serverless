@@ -6,7 +6,7 @@ description: >-
   and Google Cloud Functions; edge runtimes like Cloudflare Workers, Vercel Edge Functions, Fastly Compute@Edge, and Deno Deploy; container-based serverless like Google Cloud Run and AWS App Runner; WebAssembly-first
   platforms like Fermyon Spin and wasmCloud; durable workflow services like AWS Step Functions, Inngest, and Trigger.dev; and BaaS function runtimes like Supabase Functions, Firebase Functions, and Convex.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Serverless
 - Functions as a Service
