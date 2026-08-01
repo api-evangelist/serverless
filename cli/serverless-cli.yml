@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.serverless.com/framework/docs/providers/aws/cli-reference
+cli:
+  name: serverless
+  aliases: [sls]
+  binary: serverless
+  install:
+    - method: npm
+      command: npm install -g serverless
+    - method: npx
+      command: npx serverless
+  docs: https://www.serverless.com/framework/docs/providers/aws/cli-reference
+commands:
+  - name: create
+    summary: Scaffold a new Serverless service from a template.
+  - name: deploy
+    summary: Deploy the entire service (or a single function) to the cloud provider.
+  - name: diff
+    summary: Preview infrastructure changes against the currently deployed stack.
+  - name: invoke
+    summary: Invoke a deployed function and return its output (supports local invoke).
+  - name: logs
+    summary: Stream or fetch CloudWatch logs for a deployed function.
+  - name: info
+    summary: Display information about the deployed service, endpoints and resources.
+  - name: remove
+    summary: Tear down the deployed service and its provisioned resources.
+  - name: mcp
+    summary: Start the Serverless MCP server for AI-assistant access (stdio/HTTP/SSE).
+  - name: dashboard
+    summary: Connect the service to the Serverless Dashboard for monitoring and CI/CD.

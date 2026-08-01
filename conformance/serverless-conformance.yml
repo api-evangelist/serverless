@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.serverless.com/security
+standards:
+  - id: soc2
+    conforms: true
+    evidence: Serverless Trust Center / security page names SOC 2 compliance.
+  - id: gdpr
+    conforms: true
+    evidence: Privacy policy at serverless.com/legal/privacy documents data handling.
+compliance:
+  published: true
+  url: https://www.serverless.com/security
+  certifications:
+    - SOC 2

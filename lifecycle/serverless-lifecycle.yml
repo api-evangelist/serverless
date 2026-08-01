@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.serverless.com/framework/docs
+versioning:
+  scheme: semver
+  current: '4'
+  docs: https://github.com/serverless/serverless/releases
+  upgrade_guide: https://www.serverless.com/framework/docs/guides/upgrading-v4
+status_page: https://status.serverless.com
+sla:
+  url: https://trust.serverless.com
+deprecated_operations: []
+notes: >-
+  Serverless Framework follows semantic versioning with dated GitHub releases.
+  Major-version upgrades (e.g. v3 -> v4) ship a published upgrade guide. A live
+  status page is maintained at status.serverless.com.

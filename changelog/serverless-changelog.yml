@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/serverless/serverless/releases
+scheme: semver
+current_version: 4.39.0
+docs: https://github.com/serverless/serverless/releases
+entries:
+  - version: 4.39.0
+    date: '2026-07-08'
+    breaking: false
+    highlights:
+      - First-class support for Sandboxes on AWS Lambda MicroVMs (Firecracker-isolated, snapshotted).
+  - version: 4.38.1
+    date: '2026-06-19'
+    breaking: false
+    highlights:
+      - Upgraded undici to 6.27.0, clearing security advisories against earlier versions.
+  - version: 4.38.0
+    date: '2026-06-17'
+    breaking: false
+    highlights:
+      - Added Ruby 4.0 (ruby4.0) Lambda runtime support.
+  - version: 4.37.0
+    date: '2026-05-27'
+    breaking: false
+    highlights:
+      - New `serverless diff` command to preview changes against the deployed stack.
+  - version: 4.36.1
+    date: '2026-05-14'
+    breaking: false
+    highlights:
+      - Maintenance and bug-fix release.

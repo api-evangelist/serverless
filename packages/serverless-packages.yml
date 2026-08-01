@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/serverless
+packages:
+  - language: javascript
+    registry: npm
+    name: serverless
+    url: https://www.npmjs.com/package/serverless
+    install: npm install -g serverless
+    version: 4.39.0
+    official: true
+    description: The Serverless Framework CLI — build, deploy and operate serverless apps on AWS Lambda and other managed cloud services.
+  - language: javascript
+    registry: npm
+    name: "@serverless/dashboard-plugin"
+    url: https://www.npmjs.com/package/@serverless/dashboard-plugin
+    install: npm install @serverless/dashboard-plugin
+    official: true
+    description: Serverless Framework Dashboard plugin — monitoring, CI/CD and secrets integration with the Serverless Dashboard.
