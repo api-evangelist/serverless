@@ -5,19 +5,24 @@ source: https://www.serverless.com/framework/docs
 server:
   name: serverless
   transport: stdio
-  also_supports: [http, sse]
+  also_supports:
+  - http
+  - sse
   command: serverless mcp
   install: npm install -g serverless
   hosted: false
-  description: >-
-    Official Serverless Framework MCP server, run locally via the `serverless mcp`
-    command. Exposes AI assistants to metrics, configurations and logs for
-    serverless functions, roles, queues, storage and API resources across
-    Serverless Framework, AWS CloudFormation and SAM stacks, with parallel data
-    fetching and intelligent error-log aggregation for diagnostics.
+  description: Official Serverless Framework MCP server, run locally via the `serverless mcp` command.
+    Exposes AI assistants to metrics, configurations and logs for serverless functions, roles, queues,
+    storage and API resources across Serverless Framework, AWS CloudFormation and SAM stacks, with parallel
+    data fetching and intelligent error-log aggregation for diagnostics.
 capabilities:
-  - Retrieve metrics, configurations and logs for functions, roles, queues, storage and API resources
-  - Infrastructure-as-Code integration across Serverless Framework, AWS CloudFormation and SAM templates
-  - Parallel data fetching for efficient resource analysis
-  - Intelligent aggregation of error logs for issue diagnosis
-  - Consolidated service summaries across multiple resource types
+- Retrieve metrics, configurations and logs for functions, roles, queues, storage and API resources
+- Infrastructure-as-Code integration across Serverless Framework, AWS CloudFormation and SAM templates
+- Parallel data fetching for efficient resource analysis
+- Intelligent aggregation of error logs for issue diagnosis
+- Consolidated service summaries across multiple resource types
+deployment:
+  mode: local-stdio
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
