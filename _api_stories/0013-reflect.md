@@ -3,7 +3,7 @@ title: 'One interface for API contracts, test coverage, and production signal: B
   AI quality workflows with the SmartBear MCP Server on Amazon Bedrock AgentCore'
 link: https://smartbear.com/blog/one-interface-for-api-contracts-test-coverage-and-production-signal-build-ai-quality-workflows-with-the-smartbear-mcp-server-on-amazon-bedrock-agentcore/
 published: '2026-08-12'
-provider: smartbear
-repo: https://github.com/api-evangelist/smartbear
+provider: reflect
+repo: https://github.com/api-evangelist/reflect
 domain: smartbear.com
 ---
