@@ -1,5 +1,6 @@
 aid: serverless
 name: Serverless
+kind: topic
 description: >-
   An index and topic collection covering serverless compute, function-as-a-service (FaaS) runtimes, and edge function platforms. Serverless platforms abstract away server management, scale on demand, and bill per invocation,
   letting developers ship event-driven functions, scheduled jobs, durable workflows, and HTTP endpoints without provisioning infrastructure. This collection includes hyperscaler functions like AWS Lambda, Azure Functions,
@@ -8,6 +9,14 @@ description: >-
 type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
+- Serverless
+- Functions as a Service
+- Edge Functions
+- Cold Start
+- WebAssembly
+- Function-as-a-Service
+- Durable Workflows
+tags_raw:
 - Serverless
 - Functions as a Service
 - Edge Functions
