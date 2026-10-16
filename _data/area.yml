@@ -17,7 +17,7 @@ meta:
   - Edge Functions
   - Cold Start
   - WebAssembly
-  - FaaS
+  - Function-as-a-Service
   - Durable Workflows
   portal: https://apievangelist.com
   github: https://github.com/api-evangelist
